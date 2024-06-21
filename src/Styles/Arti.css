@@ -10,16 +10,21 @@
 }
 #arti-section h1{
   font-size: 3vw;
- border-bottom: 1px solid #000;
+   border-bottom: 1px solid #000;
 }
+
 #timing{  
   height: 60vh;
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  
+  justify-content: space-evenly;  
 }
+
+#timing-container {
+  margin: 20px;
+}
+
 #timing-container h3{
   font-size: 2vw;
 }
@@ -47,7 +52,7 @@
 }
 #timing-container .img img{
   height: 16vw;
-  
+  width: 100%; 
 }
 
 @media (max-width:700px){
