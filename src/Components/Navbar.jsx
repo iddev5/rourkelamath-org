@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/Nav.css";
-import img from "../Assets/Header.jpg";
+import img from "../Assets/emblem.png";
 const Nav = ({Sidebar,SetSidebar}) => {
   
   return (
@@ -44,6 +44,11 @@ const Nav = ({Sidebar,SetSidebar}) => {
       <div className="hb">
         <div className="logo">
           <img src={img} alt="" />
+          <h1>Ramakrishna Mission, Rourkela</h1>
+          <p>(A branch centre of Ramakrishna Mission, P.O.: Belur Math, Dist: Howrah - 711202, West Bengal )</p>
+          <h2>Vill: Hamirpur,PO: Rourkela -769003,Dist: Sundargarh,Odisha, India</h2>
+          <p>Mob: 8986893181 E-mail: rkmrourkela@gmail.com  & rourkela@rkmm.org</p>
+          
           <div className="menu-icon">
           <i class="fa-solid fa-bars" onClick={()=>SetSidebar(prev => prev === false ? true :false )} ></i>
           </div>
