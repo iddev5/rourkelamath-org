@@ -8,12 +8,11 @@ const Footer = () => {
         <div id="infoContainer">
           <div className="containers">
             <div className="icon">
-              <i className="fa-solid fa-house" style={{ color: "#EA7704" }}></i>
+              <i className="fa-solid fa-house" style={{ color: "#470D21" }}></i>
             </div>
             <div className="info">
               <p>
-                Sri Ramakrishna Math 31, Ramakrishna Math Road, Mylapore Chennai
-                600004, India
+                Ramakrishna Mission, Vill: Hamirpur, PO:Rourkela-769003, Dist: Sundargarh, Odisha, India
               </p>
             </div>
           </div>
@@ -21,54 +20,43 @@ const Footer = () => {
             <div className="icon">
               <i
                 className="fa-solid fa-envelope"
-                style={{ color: "#EA7704" }}
+                style={{ color: "#470D21" }}
               ></i>
             </div>
             <div className="info">
-              <p>mail@chennaimath.org</p>
+              <p>rourkela@rkmm.org</p>
+              <p>rkmrourkela@gmail.com</p>
             </div>
           </div>
           <div className="containers">
             <div className="icon">
-              <i className="fa-solid fa-phone" style={{ color: "#EA7704" }}></i>
+              <i className="fa-solid fa-phone" style={{ color: "#470D21" }}></i>
             </div>
             <div className="info">
-              <p>+91-44-24621110</p>
+              <p>+91-8986893181</p>
             </div>
           </div>
           <div className="containers">
             <div className="icon">
               <i
                 className="fa-regular fa-clock"
-                style={{ color: "#EA7704" }}
+                style={{ color: "#470D21" }}
               ></i>
             </div>
             <div className="info">
-              <p>Temple Timings 05.00 am to 11:45am 03:00 pm to 09:00pm</p>
+              <p>Temple Timings 05.00 am to 12:30pm 04:30 pm to 08:30pm</p>
             </div>
           </div>
           <div className="containers">
             <div className="icon">
               <i
                 className="fa-regular fa-thumbs-up"
-                style={{ color: "#EA7704" }}
+                style={{ color: "#470D21" }}
               ></i>
             </div>
 
             <div className="info">
               <p>Follow us</p>
-            </div>
-          </div>
-          <div className="containers">
-            <div className="icon">
-              <i
-                className="fa-brands fa-telegram fa-shake"
-                style={{ color: "#EA7704" }}
-              ></i>
-            </div>
-
-            <div className="info">
-              <p>Join Telegram Chanel</p>
             </div>
           </div>
         </div>

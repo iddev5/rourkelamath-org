@@ -1,15 +1,12 @@
 #welcome {
   height: 65.5vh;
   width: 100vw;
-  background: #ffdead;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 .w1 h1 {
-  padding: 10px;
-  border-bottom: 1px solid black;
   font-family: bdf;
   font-size: 3rem;
   text-align: center;
@@ -22,8 +19,8 @@
   padding: 10px;
   border-inline-width: 10px;
 }
-.w1 div h1 {
-  font-size: 1rem;
+.w1 div h2 {
+  font-size: 1.8rem;
   font-family: ltf;
   border: none;
   font-weight: 1000;
@@ -37,8 +34,8 @@
 .w2 div h1 {
   font-family: bdf;
   font-size: 3rem;
-  border-bottom: 1px solid black;
 }
+
 #quote {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -54,14 +51,14 @@
   align-items: center;
   padding: 0 20px;
 }
-#quote h1 {
+#quote h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   border: none;
   font-size: 1.5vw;
   font-weight: 100;
 }
-#quote h1 span {
+#quote h2 span {
   color: #78c0a8;
   font-size: 3rem;
   font-weight: 900;

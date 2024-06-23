@@ -1,7 +1,6 @@
 footer {
   height: 95vh;
   width: 100vw;
-  background: #ffdead;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

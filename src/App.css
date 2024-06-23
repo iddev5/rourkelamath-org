@@ -3,7 +3,10 @@
   padding: 0;
 }
 body{
-  background: #FFDEAD;
+  background: #f7f7b9;
+}
+h1 {
+  color: #c51605;
 }
 @font-face {
   font-family: ltf;
