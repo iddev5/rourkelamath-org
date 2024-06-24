@@ -126,7 +126,7 @@
     font-size: 1.5em;
   }
 
-  .nav p, h2 {
+  .nav p, .nav h2 {
     display: none;
   }
 
