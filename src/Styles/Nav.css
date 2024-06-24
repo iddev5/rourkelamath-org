@@ -117,7 +117,17 @@
 @media (max-width:991px) {
   .nav {
     height: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
+  .nav h1 {
+    font-size: 1.5em;
+  }
+
+  .nav p, h2 {
+    display: none;
   }
 
   .contact {
@@ -133,7 +143,6 @@
   .extended-nav{
     height: 40vh;    
     z-index: 99;
-    justify-content: space-between;
     animation: 0.5s ease;
    
   
