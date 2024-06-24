@@ -1,0 +1,38 @@
+.split h1 {
+	color: black;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.split h2 {
+	border-bottom: 1px solid black;
+	font-style: italic;
+}
+
+
+.split {
+	display: flex;
+	letter-spacing: 1px;
+}
+
+.split p {
+	font-size: 1.2em;
+}
+
+.split div {
+	margin: 2em;
+}
+
+.accordian {
+	background-color: #f7f7b9;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	outline: none;
+	border: none;
+	text-align: left;
+}
+
+.panel {
+	display: none;
+}

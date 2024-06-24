@@ -1,0 +1,22 @@
+.center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.center img {
+	margin-bottom: 2vw;
+	width: 15vw;
+}
+
+.content {
+	max-width: 60%;
+}
+
+.content h1 {
+	text-align: center;
+}
+
+.content p {
+	padding: 2vh;
+}
