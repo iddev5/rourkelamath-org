@@ -6,15 +6,6 @@
   gap: 20px;
 }
 
-#updates .header {
-  border-bottom: 1px solid black;
-}
-
-#updates .header h1 {
-  font-family: bdf;
-  font-size: 3em;
-}
-
 #updates .contents {
   display: grid;
   gap: 20px;

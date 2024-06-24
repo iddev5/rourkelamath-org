@@ -32,8 +32,10 @@ function AboutUs() {
         <div>
           <img src={image} />
           </div>
-          <div>
-            <h1>Swami Vivekananda</h1>
+          <div className="content">
+            <div className="header">
+              <h1>Swami Vivekananda</h1>
+            </div>
             <p>Swami Vivekananda, known in his pre-monastic life as Narendra Nath Datta, was born in an affluent family in Kolkata on 12 January 1863.</p>
             <p>His father, Vishwanath Datta, was a successful attorney with interests in a wide range of subjects, and his mother, Bhuvaneshwari Devi, was endowed with deep devotion, strong character and other qualities. A precocious boy, Narendra excelled in music, gymnastics and studies. By the time he graduated from Calcutta University, he had acquired a vast knowledge of different subjects, especially Western philosophy and history. Born with a yogic temperament, he used to practice meditation even from his boyhood, and was associated with Brahmo Movement for some time.</p>
 
@@ -101,7 +103,9 @@ function AboutUs() {
               </div>
             </div>
 
-            <h2>Message of Swami Vivekananda</h2>
+            <div className="header">
+              <h2>Message of Swami Vivekananda</h2>
+            </div>
             <ul>
               <li><p>My ideal, indeed, can be put into a few words, and that is: to preach unto mankind their divinity, and how to make it manifest in every movement of life.</p></li>
               <li><p>We want that education by which character is formed, strength of mind is increased, the intellect is expanded, and by which one can stand on one’s own feet.</p></li>

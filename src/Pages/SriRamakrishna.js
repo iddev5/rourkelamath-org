@@ -32,8 +32,10 @@ function AboutUs() {
         <div>
           <img src={image} />
           </div>
-          <div>
-            <h1>Sri Ramakrishna</h1>
+          <div className="content">
+            <div className="header">
+              <h1>Sri Ramakrishna</h1>
+            </div>
             <p>Sri Ramakrishna was born on 18 February 1836 in the village of Kamarpukur about sixty miles northwest of Kolkata. His parents, Kshudiram Chattopadhyaya and Chandramani Devi, were poor but very pious and virtuous. As a child, Ramakrishna (his childhood name was Gadadhar) was dearly loved by the villagers.</p>
 
             <div ref={acc}>
@@ -75,10 +77,12 @@ function AboutUs() {
               </div>
             </div>
 
-            <h2>Message of Sri Ramakrishna</h2>
+            <div className="header">
+              <h2>Message of Sri Ramakrishna</h2>
+            </div>
             <ul>
-              <li>The goal of human life is the realization of the Ultimate Reality which alone can give man supreme fulfilment and everlasting peace. This is the essence of all religions.</li>
-              <li>The Ultimate Reality is one; but it is personal as well as impersonal, and is indicated by different names (such as God, Ishvar, etc) in different religions.</li>
+              <li><p>The goal of human life is the realization of the Ultimate Reality which alone can give man supreme fulfilment and everlasting peace. This is the essence of all religions.</p></li>
+              <li><p>The Ultimate Reality is one; but it is personal as well as impersonal, and is indicated by different names (such as God, Ishvar, etc) in different religions.</p></li>
             </ul>
         </div>
       </div>

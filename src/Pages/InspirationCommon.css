@@ -1,26 +1,28 @@
 .split h1 {
 	color: black;
-	text-align: center;
-	border-bottom: 1px solid black;
 }
 
 .split h2 {
-	border-bottom: 1px solid black;
 	font-style: italic;
 }
 
-
 .split {
 	display: flex;
-	letter-spacing: 1px;
 }
 
 .split p {
+	font-family: bdf;
 	font-size: 1.2em;
 }
 
 .split div {
 	margin: 2em;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .accordian {
@@ -31,6 +33,8 @@
 	outline: none;
 	border: none;
 	text-align: left;
+	font-size: 1.1em;
+	color: #c51605;
 }
 
 .panel {

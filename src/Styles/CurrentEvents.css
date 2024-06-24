@@ -15,6 +15,11 @@
   font-size: 3em;
 }
 
+.header h2 {
+  font-family: bdf;
+  font-size: 2em;
+}
+
 #currentevents iframe {
   width: 90vw;
   height: 55vw;

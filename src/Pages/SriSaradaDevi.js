@@ -32,8 +32,10 @@ function SriSaradaDevi() {
         <div>
           <img src={image} />
           </div>
-          <div>
-            <h1>Sri Sarada Devi</h1>
+          <div className="content">
+            <div className="header">
+              <h1>Sri Sarada Devi</h1>
+            </div>
             <p>Endearingly known as ‘Holy Mother’, Sri Sarada Devi, the spiritual consort of Sri Ramakrishna, was born on 22 December 1853 in a poor Brahmin family in Jayrambati, a village adjoining Kamarpukur in West Bengal. Her father, Ramachandra Mukhopadhyay, was a pious and kind-hearted person, and her mother, Shyama Sundari Devi, was a loving and hard-working woman.</p>
 
             <div ref={acc}>
@@ -77,7 +79,9 @@ function SriSaradaDevi() {
               </div>
             </div>
 
-            <h2>Message of Sri Sarada Devi</h2>
+            <div className="header">
+              <h2>Message of Sri Sarada Devi</h2>
+            </div>
             <ul>
               <li><p>Ordinary human love results in misery. Love for God brings blessedness.</p></li>
               <li><p>I tell you one thing – if you want peace, do not find fault with others. Rather see your own faults. Learn to make the whole world your own. No one is a stranger, my child; the whole world is your own.</p></li>

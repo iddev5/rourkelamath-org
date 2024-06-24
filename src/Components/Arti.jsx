@@ -7,7 +7,9 @@ import img3 from "../Assets/Worship – 7.30 am to 9.00 am.jpg";
 const Arti = () => {
   return (
     <div id="arti-section">
-      <h1>Daily Worship & Arati</h1>
+      <div className="header">
+        <h1>Daily Worship & Arati</h1>
+      </div>
       <div id="timing">
         <div id="timing-container">
           <div className="text-box1"><h3>Mangala Arati – 5.00 am</h3></div>
