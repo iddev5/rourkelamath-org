@@ -55,15 +55,25 @@ const Nav = ({Sidebar,SetSidebar}) => {
           </div>
         </div>
         <div id="links" className={`navigation-buttons ${Sidebar?"":"extended-sidebar"}`}>
-          <a id="home" href="#home"> Home</a>
-          <a href="#home">About us</a>
-          <a href="#home">Activities</a>
-          <a href="#home">Publications</a>
-          <a href="#home">Media</a>
-          <a href="#home">Become a monk</a>
-          <a href="#home">Donate</a>
-          <a href="#home">Sale of Immovable Properties</a>
-          <a href="#home">More</a>
+          <li><a id="home" href="/"> Home</a></li>
+          <li>
+            <a href="/">About us</a>
+            <div class="nav-dropdown">
+              <ul>
+                <li><a>Our Inspiration</a></li>
+                <li><a href="/our-motto">Our Motto</a></li>
+                <li><a href="/history">History of Rourkela Mission</a></li>
+                <li><a href="/emblem">Our Emblem</a></li>
+              </ul>
+            </div>  
+          </li>
+          <li><a href="#home">Activities</a></li>
+          <li><a href="#home">Publications</a></li>
+          <li><a href="#home">Media</a></li>
+          <li><a href="#home">Become a monk</a></li>
+          <li><a href="#home">Donate</a></li>
+          <li><a href="#home">Sale of Immovable Properties</a></li>
+          <li><a href="#home">More</a></li>
         </div>
       </div>
     </div>

@@ -7,8 +7,6 @@
   justify-content: space-around;
   align-items: center;
   padding-bottom: 15px;
-  overflow-x: hidden;
-  overflow-y: visible;
   position: sticky;
   top: 0%;
   z-index: 100;
@@ -89,6 +87,12 @@
   gap: 30px;
 }
 
+#links {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: ltf;
+}
+
 #home {
   background: #e67e22;
   padding: 5px 15px;
@@ -96,10 +100,34 @@
 }
 
 .navigation-buttons a {
-  font-size: 1rem;
-  font-weight: 600;
-  font-family: ltf;
   padding: 5px 5px;
+}
+
+.navigation-buttons li {
+  display: block;
+}
+
+.navigation-buttons li:hover .nav-dropdown {
+  display: block;
+}
+
+
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  background: #f7f7b9;
+  margin-top: 5px; 
+  border-radius: 5px;
+}
+
+.nav-dropdown li {
+  padding-bottom: 0.3em;
+  padding-right: 1vw;
+}
+
+.nav-dropdown a {
+  display: block;
+  width: 100%;
 }
 
 .navigation-buttons a:hover {
@@ -122,6 +150,10 @@
     justify-content: space-between;
   }
 
+  .hb {
+    align-items: default;
+  }
+
   .nav h1 {
     font-size: 1.5em;
   }
@@ -137,27 +169,27 @@
   .navigation-buttons {
     display: none;
   }
-  #links>a{
+  #links>li{
     display: none;
   }
+
   .extended-nav{
     height: 40vh;    
     z-index: 99;
     animation: 0.5s ease;
-   
-  
   }
+  
   .extended-nav #links{
-    display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .extended-nav #links a{
+  .extended-nav #links li{
     display: flex;
     font-size: 2vw;
     flex-direction: column;
   }
+  
   .nav .logo img {
     height: 4vw;
   }
