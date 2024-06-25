@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "../Styles/Nav.css";
 import img from "../Assets/emblem.png";
+
+
+
+
 const Nav = ({Sidebar,SetSidebar}) => {
   
   return (
@@ -50,32 +54,56 @@ const Nav = ({Sidebar,SetSidebar}) => {
           <h2>Vill: Hamirpur,PO: Rourkela -769003,Dist: Sundargarh,Odisha, India</h2>
           <p>Mob: 8986893181 E-mail: rkmrourkela@gmail.com  & rourkela@rkmm.org</p>
           </div>
-          <div className="menu-icon">
+          {<div className="menu-icon">
           <i class="fa-solid fa-bars" onClick={()=>SetSidebar(prev => prev === false ? true :false )} ></i>
-          </div>
+          </div>}
         </div>
-        <div id="links" className={`navigation-buttons ${Sidebar?"":"extended-sidebar"}`}>
-          <li><a id="home" href="/"> Home</a></li>
-          <li>
-            <a href="/">About us</a>
-            <div class="nav-dropdown">
-              <ul>
-                <li><a>Our Inspiration</a></li>
-                <li><a href="/our-motto">Our Motto</a></li>
-                <li><a href="/history">History of Rourkela Mission</a></li>
-                <li><a href="/emblem">Our Emblem</a></li>
-              </ul>
-            </div>  
-          </li>
-          <li><a href="#home">Activities</a></li>
-          <li><a href="#home">Publications</a></li>
-          <li><a href="#home">Media</a></li>
-          <li><a href="#home">Become a monk</a></li>
-          <li><a href="#home">Donate</a></li>
-          <li><a href="#home">Sale of Immovable Properties</a></li>
-          <li><a href="#home">More</a></li>
+          <ul className={`navigation-bar ${Sidebar ? '': 'resp-navigation-bar'}`}>
+            <li><a href="/">Home</a></li>
+            <li>
+              <a>About us</a>
+              <div class="nav-dropdown">
+                <ul>
+                  <li><a>
+                    Our Inspiration
+                    <div class="nav-dropside">
+                      <ul>
+                        <li><a href="/sri-ramakrishna">Sri Ramakrishna</a></li>
+                        <li><a href="/sri-sarada-devi">Sri Sarada Devi</a></li>
+                        <li><a href="/swami-vivekananda">Swami Vivekananda</a></li>
+                      </ul>
+                    </div>
+                  </a></li>
+                  <li><a href="/our-motto">Our Motto</a></li>
+                  <li><a href="/history">History of Rourkela Mission</a></li>
+                  <li><a href="/emblem">Our Emblem</a></li>
+                </ul>
+              </div>  
+            </li>
+          </ul>
+          {/*
+      //   <div id="links" className={`navigation-buttons ${Sidebar?"":"extended-sidebar"}`}>
+      //     <li><a id="home" href="/"> Home</a></li>
+      //     <li>
+      //       <a href="/">About us</a>
+      //       <div class="nav-dropdown">
+      //         <ul>
+      //           <li><a>Our Inspiration</a></li>
+      //           <li><a href="/our-motto">Our Motto</a></li>
+      //           <li><a href="/history">History of Rourkela Mission</a></li>
+      //           <li><a href="/emblem">Our Emblem</a></li>
+      //         </ul>
+      //       </div>  
+      //     </li>
+      //     <li><a href="#home">Activities</a></li>
+      //     <li><a href="#home">Publications</a></li>
+      //     <li><a href="#home">Media</a></li>
+      //     <li><a href="#home">Become a monk</a></li>
+      //     <li><a href="#home">Donate</a></li>
+      //     <li><a href="#home">Sale of Immovable Properties</a></li>
+      //     <li><a href="#home">More</a></li>
+      // </div>*/}
         </div>
-      </div>
     </div>
   );
 };
