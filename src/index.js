@@ -9,6 +9,7 @@ import SwamiVivekananda from "./Pages/SwamiVivekananda.js";
 import OurMotto from "./Pages/OurMotto.js";
 import History from "./Pages/History.js";
 import Emblem from "./Pages/Emblem.js";
+import Events from "./Pages/Events.js";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/emblem",
     element: <Emblem />,
+  },
+  {
+    path: "/events",
+    element: <Events />,
   },
 ])
 
