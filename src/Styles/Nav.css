@@ -7,9 +7,20 @@
   justify-content: space-around;
   align-items: center;
   padding-bottom: 15px;
-  position: sticky;
   top: 0%;
   z-index: 100;
+}
+
+.goto-top {
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  width: 7vh;
+  height: 7vh;
+  background-color: #e67e22;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
 }
 
 .nav a {

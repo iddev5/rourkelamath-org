@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "../Styles/Nav.css";
 import img from "../Assets/emblem.png";
 
@@ -6,8 +6,23 @@ import img from "../Assets/emblem.png";
 
 
 const Nav = ({Sidebar,SetSidebar}) => {
+  const scrollbtn = useRef(null);
+
+  window.onscroll = () => {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      scrollbtn.current.style.display = "block";
+    } else {
+      scrollbtn.current.style.display = "none";
+    }
+  }
+
+
+  function scrollTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
   
-  return (
+  return <div>
     <div className={`nav  ${Sidebar?'':'extended-nav'}`}>
       <div className="contact">
         <div className="left">
@@ -105,7 +120,11 @@ const Nav = ({Sidebar,SetSidebar}) => {
       // </div>*/}
         </div>
     </div>
-  );
+    
+    <button onClick={scrollTop} ref={scrollbtn} className="goto-top">
+      Go to Top
+    </button >
+  </div>
 };
 
 export default Nav;
