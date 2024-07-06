@@ -15,6 +15,7 @@ import Computer from "./Pages/Computer.js";
 import Projects from "./Pages/Projects.js";
 import Donate from "./Pages/Donate.js";
 import ReligiousActivities from "./Pages/ReligiousActivities.js";
+import RegCertificate from "./Pages/RegCertificate.js";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
   {
     path: "/spiritual-activities",
     element: <ReligiousActivities />,
+  },
+  {
+    path: "/reg-certificate",
+    element: <RegCertificate />,
   },
   {
     path: "/events",

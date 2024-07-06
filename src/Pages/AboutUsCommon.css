@@ -27,6 +27,12 @@
 	font-size: 1.2em;
 }
 
+.center iframe {
+	margin-top: 1vw;
+	width: 80vw;
+	height: 100vh;
+}
+
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(3, auto);
@@ -40,6 +46,20 @@
 .highlight {
 	color: #c51605;
 	font-size: 1.1em;
+}
+
+.document-download {
+	color: white;
+	background-color: #c51605;
+	padding: 1.5vh 1.5vw;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-top: 2vw;
+	font-size: 1.2em;
+}
+
+.document-download:hover {
+	background-color: #d92015;
 }
 
 @media only screen and (max-width: 991px) {

@@ -2,12 +2,6 @@ import Header from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import { useState } from "react";
 import './AboutUsCommon.css';
-import image1 from '../Assets/computer/1.jpg';
-import image2 from '../Assets/computer/2.jpg';
-import image3 from '../Assets/computer/3.jpg';
-import image4 from '../Assets/computer/4.jpg';
-import image5 from '../Assets/computer/5.jpg';
-import image6 from '../Assets/computer/6.jpg';
 
 export default function ReligiousActivities() {
  const[Sidebar,SetSidebar]=useState(true) 
