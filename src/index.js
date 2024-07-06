@@ -16,6 +16,7 @@ import Projects from "./Pages/Projects.js";
 import Donate from "./Pages/Donate.js";
 import ReligiousActivities from "./Pages/ReligiousActivities.js";
 import RegCertificate from "./Pages/RegCertificate.js";
+import Legal from "./Pages/Legal.js";
 
 const router = createBrowserRouter([
   {
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
   {
     path: "/events",
     element: <Events />,
+  },
+  {
+    path: "/legal",
+    element: <Legal />,
   },
 ])
 
