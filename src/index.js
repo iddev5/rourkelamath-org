@@ -10,6 +10,7 @@ import OurMotto from "./Pages/OurMotto.js";
 import History from "./Pages/History.js";
 import Emblem from "./Pages/Emblem.js";
 import Events from "./Pages/Events.js";
+import Monk from "./Pages/Monk.js";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: "/emblem",
     element: <Emblem />,
+  },
+  {
+    path: "/monk",
+    element: <Monk />,
   },
   {
     path: "/events",

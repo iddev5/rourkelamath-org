@@ -17,6 +17,10 @@
 	text-align: center;
 }
 
+.content h3 {
+	text-align: center;
+}
+
 .content p {
 	padding: 2vh;
 	font-family: bdf;

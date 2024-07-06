@@ -95,6 +95,7 @@ const Nav = ({Sidebar,SetSidebar}) => {
                 </ul>
               </div>  
             </li>
+            <li><a href="/monk">Become a monk</a></li>
           </ul>
           {/*
       //   <div id="links" className={`navigation-buttons ${Sidebar?"":"extended-sidebar"}`}>
