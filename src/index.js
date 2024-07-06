@@ -14,6 +14,7 @@ import Monk from "./Pages/Monk.js";
 import Computer from "./Pages/Computer.js";
 import Projects from "./Pages/Projects.js";
 import Donate from "./Pages/Donate.js";
+import ReligiousActivities from "./Pages/ReligiousActivities.js";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
   {
     path: "/donate",
     element: <Donate />,
+  },
+  {
+    path: "/spiritual-activities",
+    element: <ReligiousActivities />,
   },
   {
     path: "/events",

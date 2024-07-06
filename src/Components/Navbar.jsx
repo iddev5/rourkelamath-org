@@ -102,7 +102,7 @@ const Nav = ({Sidebar,SetSidebar}) => {
                   <li><a href="/projects">Educational Projects</a></li>
                   <li><a href="/computer">Computer Basic Training</a></li>
                   <li><a href="/relief-work">Relief Work</a></li>
-                  <li><a href="/spritual-activities">Spiritual Activities</a></li>
+                  <li><a href="/spiritual-activities">Spiritual Activities</a></li>
                   <li><a href="/free-tuition">Free Tuition Center</a></li>
                 </ul>
               </div>  
