@@ -11,6 +11,7 @@ import History from "./Pages/History.js";
 import Emblem from "./Pages/Emblem.js";
 import Events from "./Pages/Events.js";
 import Monk from "./Pages/Monk.js";
+import Computer from "./Pages/Computer.js";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path: "/monk",
     element: <Monk />,
+  },
+  {
+    path: "/computer",
+    element: <Computer />,
   },
   {
     path: "/events",
