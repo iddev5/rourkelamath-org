@@ -95,7 +95,54 @@ const Nav = ({Sidebar,SetSidebar}) => {
                 </ul>
               </div>  
             </li>
+            <li>
+              <a>Activities</a>
+              <div class="nav-dropdown">
+                <ul>
+                  <li><a href="/projects">Educational Projects</a></li>
+                  <li><a href="/computer">Computer Basic Training</a></li>
+                  <li><a href="/relief-work">Relief Work</a></li>
+                  <li><a href="/spritual-activities">Spiritual Activities</a></li>
+                  <li><a href="/free-tuition">Free Tuition Center</a></li>
+                </ul>
+              </div>  
+            </li>
+            <li><a href="/appeal">Appeal</a></li>
+            <li><a href="/gallery">Gallery</a></li>
             <li><a href="/monk">Become a monk</a></li>
+            <li><a href="/donate">Donate</a></li>
+            <li>
+              <a>More</a>
+              <div class="nav-dropdown">
+                <ul>
+                  <li><a>
+                    Legal Documents
+                    <div class="nav-dropside">
+                      <ul>
+                        <li><a href="/accounts">Accounts</a></li>
+                        <li><a>
+                          Registration
+                          <div class="nav-dropside">
+                            <ul>
+                              <li><a href="/reg-certificate">Registration Certificate</a></li>
+                              <li><a href="/pan-no">Pan No.</a></li>
+                              <li><a href="/gst">GST</a></li>
+                              <li><a href="/charter-of-mc">Charter of MC</a></li>
+                              <li><a href="/pan-rkm">Pan No of RKM</a></li>
+                            </ul>
+                          </div>
+                        </a></li>
+                        <li><a href="/land-record">Land Record</a></li>
+                        <li><a href="/tan">TAN</a></li>
+                      </ul>
+                    </div>
+                  </a></li>
+                  <li><a href="/legal">Legal Status and Management Policy</a></li>
+                  <li><a href="/calender">Calender</a></li>
+                  <li><a href="/visit-us">Visit Us</a></li>
+                </ul>
+              </div>  
+            </li>
           </ul>
           {/*
       //   <div id="links" className={`navigation-buttons ${Sidebar?"":"extended-sidebar"}`}>
