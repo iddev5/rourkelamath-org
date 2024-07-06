@@ -12,6 +12,7 @@ import Emblem from "./Pages/Emblem.js";
 import Events from "./Pages/Events.js";
 import Monk from "./Pages/Monk.js";
 import Computer from "./Pages/Computer.js";
+import Projects from "./Pages/Projects.js";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: "/computer",
     element: <Computer />,
+  },
+  {
+    path: "/projects",
+    element: <Projects />,
   },
   {
     path: "/events",
