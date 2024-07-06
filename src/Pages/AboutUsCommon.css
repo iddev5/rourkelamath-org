@@ -37,6 +37,11 @@
 	margin: 2vw;
 }
 
+.highlight {
+	color: #c51605;
+	font-size: 1.1em;
+}
+
 @media only screen and (max-width: 991px) {
 	.content {
 		max-width: 90%;
