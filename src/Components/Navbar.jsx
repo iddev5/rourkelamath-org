@@ -79,6 +79,7 @@ const Nav = ({Sidebar,SetSidebar}) => {
               <a>About us</a>
               <div class="nav-dropdown">
                 <ul>
+                  <li><a href="/rmr">Ramakrishna Mission Rourkela</a></li>
                   <li><a>
                     Our Inspiration
                     <div class="nav-dropside">

@@ -21,6 +21,7 @@ import Charter from "./Pages/Charter.js";
 import Gst from "./Pages/Gst.js";
 import PanRkm from "./Pages/PanRkm.js";
 import Land from "./Pages/Land.js";
+import RMR from "./Pages/RMR.js";
 
 const router = createBrowserRouter([
   {
@@ -99,6 +100,10 @@ const router = createBrowserRouter([
   {
     path: "/legal",
     element: <Legal />,
+  },
+  {
+    path: "/rmr",
+    element: <RMR />,
   },
 ])
 
