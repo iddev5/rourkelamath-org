@@ -17,6 +17,10 @@ import Donate from "./Pages/Donate.js";
 import ReligiousActivities from "./Pages/ReligiousActivities.js";
 import RegCertificate from "./Pages/RegCertificate.js";
 import Legal from "./Pages/Legal.js";
+import Charter from "./Pages/Charter.js";
+import Gst from "./Pages/Gst.js";
+import PanRkm from "./Pages/PanRkm.js";
+import Land from "./Pages/Land.js";
 
 const router = createBrowserRouter([
   {
@@ -75,6 +79,22 @@ const router = createBrowserRouter([
   {
     path: "/events",
     element: <Events />,
+  },
+  {
+    path: "/charter-of-mc",
+    element: <Charter />,
+  },
+  {
+    path: "/gst",
+    element: <Gst />,
+  },
+  {
+    path: "/pan-rkm",
+    element: <PanRkm />,
+  },
+  {
+    path: "/land-record",
+    element: <Land />,
   },
   {
     path: "/legal",
