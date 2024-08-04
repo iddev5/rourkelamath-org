@@ -16,7 +16,6 @@ export default function Charter() {
         <iframe class="pdf" src={charter} />
         <a className="document-download" href={charter} download="CHARTER OF MC_2023-2025_Rourkela.pdf">Download</a>
       </div>
-      <Footer />
     </>
   );
 }

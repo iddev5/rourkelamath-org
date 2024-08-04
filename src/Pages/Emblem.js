@@ -25,7 +25,6 @@ function Emblem() {
           <p>Romain Rolland described Sri Ramakrishna’s life as the fulfillment of the spiritual aspirations of three hundred million Hindus for the last two thousand years. Max Müller designated him as “a real mahatman,” or truly a great master. “No one,” said Mahatma Gandhi, “can read the story of his life without being convinced that God alone is real and all else is an illusion.”</p>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

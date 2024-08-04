@@ -77,7 +77,6 @@ function SriSaradaDevi() {
             </ul>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

@@ -37,7 +37,6 @@ export default function ReligiousActivities() {
           <p>As we reflect on the manifold activities and endeavors undertaken in FY 2023-24, we reaffirm our commitment to the principles of service, spirituality, and social upliftment, guided by the noble ideals of the Ramakrishna Mission.</p>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

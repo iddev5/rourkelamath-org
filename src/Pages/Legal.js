@@ -83,7 +83,6 @@ export default function Legal() {
           <a className="document-download" href={legal} download="LEGAL STATUS AND MANAGEMENT POLICY.pdf">Download</a>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

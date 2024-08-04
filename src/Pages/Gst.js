@@ -16,7 +16,6 @@ export default function Gst() {
         <iframe class="pdf" src={gst} />
         <a className="document-download" href={gst} download="GSTN NUMBER-AA210921023098K_RC30092021.pdf">Download</a>
       </div>
-      <Footer />
     </>
   );
 }

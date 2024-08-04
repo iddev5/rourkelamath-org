@@ -102,7 +102,6 @@ function AboutUs() {
             </ul>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

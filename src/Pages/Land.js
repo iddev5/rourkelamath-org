@@ -16,7 +16,6 @@ export default function Land() {
         <iframe class="pdf" src={land} />
         <a className="document-download" href={land} download="LAND RECORD.pdf">Download</a>
       </div>
-      <Footer />
     </>
   );
 }

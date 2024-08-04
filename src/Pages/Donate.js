@@ -96,7 +96,6 @@ function Projects() {
                     </p>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }

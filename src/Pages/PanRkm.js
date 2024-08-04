@@ -18,7 +18,6 @@ export default function PanRkm() {
         <iframe class="pdf" src={pan_rkm} />
         <a className="document-download" href={pan_no} download="PAN NUMBER OF RAMAKRISHNA MISSION ROURKELA_.pdf">Download</a>
       </div>
-      <Footer />
     </>
   );
 }

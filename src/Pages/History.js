@@ -22,7 +22,6 @@ function History() {
         <p>Let us come together and contribute towards this noble cause. I pray to The Holy Trio to shower abundant blessings upon you all for your generosity and support.</p>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

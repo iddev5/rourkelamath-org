@@ -16,7 +16,6 @@ export default function RegCertificate() {
         <iframe class="pdf" src={reg_certificate} />
         <a className="document-download" href={reg_certificate} download="rmr-registration-certificate.pdf">Download</a>
       </div>
-      <Footer />
     </>
   );
 }

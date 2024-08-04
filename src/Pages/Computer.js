@@ -27,7 +27,6 @@ function Computer() {
           <img src={image6} />
         </div>
       </div>
-      <Footer />
     </>
   );
 }

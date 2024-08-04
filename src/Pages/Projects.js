@@ -20,7 +20,6 @@ function Projects() {
           <img />
         </div>
       </div>
-      <Footer />
     </>
   );
 }

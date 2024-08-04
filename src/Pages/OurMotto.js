@@ -22,7 +22,6 @@ function OurMotto() {
           </ul>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

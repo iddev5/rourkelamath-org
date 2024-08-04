@@ -288,7 +288,6 @@ export default function RMR() {
 <p></p>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
