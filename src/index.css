@@ -16,6 +16,10 @@ h1 {
   font-family: bdf;
   src: url(./Assets/font_latin.woff2);
 }
+@font-face {
+  font-family: mont;
+  src: url(./Assets/Montserrat-Medium.ttf);
+}
 body {
   overflow-x: hidden;
 }

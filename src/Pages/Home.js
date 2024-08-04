@@ -17,7 +17,6 @@ function Home() {
       <Header Sidebar={Sidebar} SetSidebar={SetSidebar} />
       <Slider />
       <Welcome />
-      <CurrentEvents />
       <Announcements />
       <Inspiration />
       <RecentUpdates />

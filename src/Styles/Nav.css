@@ -1,5 +1,5 @@
 .nav {
-  height: 26.5vh;
+  height: 22.5vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -29,16 +29,11 @@
 .nav a {
   text-decoration: none;
   color: black;
+  font-size: 1.1em;
 }
 
 .left1 {
   padding-right: 20px;
-  display: flex;
-  gap: 10px;
-  border-right: 2px dotted black;
-}
-
-.left2 {
   display: flex;
   gap: 10px;
 }
@@ -71,8 +66,19 @@
 }
 
 .nav .logo img {
-  height: 9vh;
-  margin-right: 2vw;
+  height: 11vh;
+  margin-right: 4vw;
+}
+
+.nav .logo h1 {
+  font-family: mont;
+  font-size: 2.4em;
+  margin-bottom: 0.5vh;
+  letter-spacing: 2px;
+}
+
+.nav .logo p {
+  color: #304052;
 }
 
 .hb {
@@ -80,6 +86,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 2vh;
 }
 
 .emblem-tag {

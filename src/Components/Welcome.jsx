@@ -7,10 +7,21 @@ const Welcome = () => {
       <div className="w1">
         <h1>Ramakrishna Mission, Rourkela </h1>
         <div>
-          <h2>( A branch centre of Ramakrishna Mission )</h2>
+          <h2>A branch centre of Ramakrishna Mission</h2>
         </div>
       </div>
         <div className="w2">
+            <div id="signtitle">
+              <h1>Vision of this Center</h1>
+            </div>
+            <div id="sign">
+              <h2>
+              It will be a great centre of tolerance and universal acceptance, of grand harmony of all religions, creeds and faiths, sending forth the shining message of goodwill, peace and harmony taking the whole universe to liberation.
+              The vision and mission of Ramakrishna Math and Ramakrishna Mission is best described in the words of its great founder Swami Vivekananda —
+              “My ideal indeed can be put into few words and that is: to preach unto mankind their divinity and how to make it manifest in every movement in life”.
+              तन्नो हंस: प्रचोदयात् (Tanno hamsah prachodayat), meaning, “May the Paramatman, Supreme Self [symbolized by] the Swan (hamsa), awaken our [higher] understanding.”
+              </h2>
+            </div>
           <div>
             <h1>Motto of the organisation</h1>
           </div>

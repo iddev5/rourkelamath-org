@@ -11,43 +11,30 @@ export default function RMR() {
       <div className="center">
         <div className="content">
     <p><h1>Welcome to Ramakrishna Mission, Rourkela</h1></p>
-<p>
-  Ramakrishna Mission, Rourkela, is a vital branch center of Ramakrishna Math
-  &amp; Ramakrishna Mission, Belur, Howrah, West Bengal, with a profound legacy
-  spanning over a century. We are a global, non-political, and non-sectarian
-  spiritual organization committed to humanitarian and social service
-  activities.
-</p>
-<p>
-  <h2>Inspired by Spiritual Ideals</h2>
-</p>
-<p>
-  Founded by Sri Ramakrishna (1836-1886), a revered 19th-century saint, and his
-  foremost disciple Swami Vivekananda (1863-1902), a visionary leader renowned
-  as a key shaper of the modern world. Despite being legally distinct,
-  Ramakrishna Math and Ramakrishna Mission are closely interconnected,
-  spearheading a universal spiritual movement aimed at catalyzing the spiritual
-  upliftment of humanity.
-</p>
-<p>
-  <h2>Core Principles</h2>
-</p>
-<p>At the heart of our mission are two fundamental principles:</p>
-<ol>
-  <li>
-    <p>
-      <b>The potential divinity of all beings</b>
-    </p>
-  </li>
-
-  <li>
-    <p>
-      <b>The oneness of existence</b>, emphasizing unity and solidarity across
-      the universe.
-    </p>
-  </li>
-</ol>
-
+    <div className="split">
+      
+      <div>
+      <p>
+        Ramakrishna Mission, Rourkela, is a vital branch center of Ramakrishna Math
+        &amp; Ramakrishna Mission, Belur, Howrah, West Bengal, with a profound legacy
+        spanning over a century. We are a global, non-political, and non-sectarian
+        spiritual organization committed to humanitarian and social service
+        activities.
+      </p>
+      <p>
+        <h2>Inspired by Spiritual Ideals</h2>
+      </p>
+      <p>
+        Founded by Sri Ramakrishna (1836-1886), a revered 19th-century saint, and his
+        foremost disciple Swami Vivekananda (1863-1902), a visionary leader renowned
+        as a key shaper of the modern world. Despite being legally distinct,
+        Ramakrishna Math and Ramakrishna Mission are closely interconnected,
+        spearheading a universal spiritual movement aimed at catalyzing the spiritual
+        upliftment of humanity.
+      </p>
+      </div>
+    </div>
+  
 <p>
   <h2>Guiding Philosophy</h2>
 </p>

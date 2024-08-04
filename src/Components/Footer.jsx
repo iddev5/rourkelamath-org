@@ -77,19 +77,11 @@ const Footer = () => {
       </div>
 
       <div id="right-info">
-        <h1>Our Sites</h1>
+        <h1>Ramakrishna Mission, Rourkela</h1>
         <div id="site-links">
-          <a href="#home">Ramakrishna Math iStore</a>
-          <a href="#home">Ramakrishna Math Donations</a>
-          <a href="#home">Ramakrishna Math Media Gallery</a>
-          <a href="#home">Vedanta & Spiritual eBooks</a>
-          <a href="#home">Vivekananda House</a>
-          <a href="#home">Vivekananda Cultural Centre</a>
-          <a href="#home">Vivekananda Girls’ School</a>
-          <a href="#home">National School</a>
-          <a href="#home">Meyyur Rural Unit</a>
-          <a href="#home">Ramakrishna Math Apps</a>
-          <a href="#home">Ramakrishna Math, Puducherry</a>
+          <p>(A branch centre of Ramakrishna Mission, P.O.: Belur Math, Dist: Howrah - 711202, West Bengal )</p>
+          <h2>Vill: Hamirpur, PO: Rourkela -769003, Dist: Sundargarh, Odisha, India</h2>
+          <p>Mob: 8986893181, E-mail: rkmrourkela@gmail.com & rourkela@rkmm.org</p>
         </div>
       </div>
     </footer>

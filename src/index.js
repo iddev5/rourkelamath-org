@@ -22,6 +22,7 @@ import Gst from "./Pages/Gst.js";
 import PanRkm from "./Pages/PanRkm.js";
 import Land from "./Pages/Land.js";
 import RMR from "./Pages/RMR.js";
+import Appeal from "./Pages/Appeal.js";
 
 const router = createBrowserRouter([
   {
@@ -104,6 +105,10 @@ const router = createBrowserRouter([
   {
     path: "/rmr",
     element: <RMR />,
+  },
+  {
+    path: "/appeal",
+    element: <Appeal />,
   },
 ])
 

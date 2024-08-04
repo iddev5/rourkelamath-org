@@ -24,21 +24,7 @@ const Nav = ({Sidebar,SetSidebar}) => {
   
   return <div>
     <div className={`nav  ${Sidebar?'':'extended-nav'}`}>
-      <div className="contact">
-        <div className="left">
-          <div className="left1">
-            <span>
-              <i className="fa-regular fa-envelope"></i>
-            </span>
-            mail@chennaimath.org
-          </div>
-          <div className="left2">
-            <span>
-              <i className="fa-solid fa-phone"></i>
-            </span>
-            +91-44-24621110
-          </div>
-        </div>
+      {/*<div className="contact">
         <div className="s-icons">
           <a href="#a">
             <i className="fa-brands fa-whatsapp"></i>
@@ -59,15 +45,13 @@ const Nav = ({Sidebar,SetSidebar}) => {
             <i className="fa-brands fa-telegram"></i>
           </a>
         </div>
-      </div>
+      </div>*/}
       <div className="hb">
         <div className="logo">
           <img src={img} alt="" />
           <div className="emblem-tag">
           <h1>Ramakrishna Mission, Rourkela</h1>
-          <p>(A branch centre of Ramakrishna Mission, P.O.: Belur Math, Dist: Howrah - 711202, West Bengal )</p>
-          <h2>Vill: Hamirpur, PO: Rourkela -769003, Dist: Sundargarh, Odisha, India</h2>
-          <p>Mob: 8986893181, E-mail: rkmrourkela@gmail.com & rourkela@rkmm.org</p>
+          <p>(A branch centre of Ramakrishna Mission, P.O.: Belur Math, Dist: Howrah - 711202, West Bengal)</p>
           </div>
           {<div className="menu-icon">
           <i class="fa-solid fa-bars" onClick={()=>SetSidebar(prev => prev === false ? true :false )} ></i>

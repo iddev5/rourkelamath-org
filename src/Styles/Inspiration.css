@@ -13,7 +13,8 @@
 }
 
 #inspiration img {
-  width: 30vw;
+  width: 20vw;
+  padding: 2.5vw;
 }
 
 @media only screen and (max-width: 600px) {

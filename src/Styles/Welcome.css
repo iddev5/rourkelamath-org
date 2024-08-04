@@ -1,33 +1,38 @@
 #welcome {
-  height: 65.5vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 
 }
+
 .w1 h1 {
   font-family: bdf;
   font-size: 3rem;
   text-align: center;
   color: #C51605;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
 }
+
 .w1 div {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid black;
   padding: 10px;
   border-inline-width: 10px;
-  color: #C51605;
+  color: #b85738;
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+  font-family: ltf;
 }
 .w1 div h1 {
   font-size: 1rem;
   font-family: ltf;
   border: none;
   font-weight: 1000;
-  color: #973131;
 
 }
 .w2 {
@@ -43,7 +48,34 @@
   
 }
 
+#sign {
+  width: 90%;
+  font-family: bdf;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 10px;
+  line-height: 1.8;
+  background-color: #f7b86e;
+  color: #000;
+  border: 2px solid #000;
+}
 
+#signtitle h1 {
+  margin-top: 20px;
+  color: #000;
+  font-weight: 900;
+  border-bottom: #000 1px solid;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+#sign h2 {
+  padding: 8px;
+  font-size: 1.8em;
+  font-weight: 500;
+  text-align: justify;
+}
 
 #quote {
   margin-top: 2vh;
