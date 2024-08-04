@@ -158,12 +158,42 @@
   border-radius: 5px;
 }
 
+.nav-dropside-left {
+  display: none;
+  position: absolute;
+  right: 100%;
+  top: -1%;
+  background: #f7f7b9;
+  box-shadow: 5px 5px 20px #040404;
+  margin-top: 5px; 
+  border-radius: 5px;
+}
+
+.nav-dropside-left-2 {
+  display: none;
+  position: absolute;
+  right: 100%;
+  top: -1%;
+  background: #f7f7b9;
+  box-shadow: 5px 5px 20px #040404;
+  margin-top: 5px; 
+  border-radius: 5px;
+}
+
 .nav-dropdown a {
   display: block;
   width: 100%;
 }
 
 .nav-dropdown li:hover .nav-dropside {
+  display: block;
+}
+
+.nav-dropdown li:hover .nav-dropside-left {
+  display: block;
+}
+
+.nav-dropside-left li:hover .nav-dropside-left-2 {
   display: block;
 }
 

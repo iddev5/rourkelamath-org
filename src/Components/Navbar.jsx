@@ -102,12 +102,12 @@ const Nav = ({Sidebar,SetSidebar}) => {
                 <ul>
                   <li><a>
                     Legal Documents
-                    <div class="nav-dropside">
+                    <div class="nav-dropside-left">
                       <ul>
                         <li><a href="/accounts">Accounts</a></li>
                         <li><a>
                           Registration
-                          <div class="nav-dropside">
+                          <div class="nav-dropside-left-2">
                             <ul>
                               <li><a href="/reg-certificate">Registration Certificate</a></li>
                               <li><a href="/pan-no">Pan No.</a></li>
