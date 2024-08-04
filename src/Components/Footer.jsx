@@ -12,7 +12,8 @@ const Footer = () => {
             </div>
             <div className="info">
               <p>
-                Ramakrishna Mission, Vill: Hamirpur, PO:Rourkela-769003, Dist: Sundargarh, Odisha, India
+                Ramakrishna Mission, Vill: Hamirpur, PO:Rourkela-769003, Dist:
+                Sundargarh, Odisha, India
               </p>
             </div>
           </div>
@@ -64,14 +65,13 @@ const Footer = () => {
       <div id="map-section">
         <div className="map">
           <iframe
-            title="map"
-            style={{ fontSize: "16px", border: "0" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1312.4950171832545!2d83.90422916361017!3d21.49610297038295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a213dc141b8bbc7%3A0x7b4c80cbff0d772d!2sISRO%20Space%20Innovation%20Center%20%2C%20VSSUT%20Burla!5e0!3m2!1sen!2sin!4v1715563947125!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.262408161198!2d84.8702478!3d22.2680476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a201c110275c71f%3A0x3097c51f94a7b1c0!2sRAMAKRISHNA%20MISSION!5e0!3m2!1sen!2sin!4v1722782553073!5m2!1sen!2sin"
             width="600"
             height="450"
-            allowfullscreen=""
+            style={{"border":"0"}}
+            allowFullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
@@ -79,9 +79,17 @@ const Footer = () => {
       <div id="right-info">
         <h1>Ramakrishna Mission, Rourkela</h1>
         <div id="site-links">
-          <p>(A branch centre of Ramakrishna Mission, P.O.: Belur Math, Dist: Howrah - 711202, West Bengal )</p>
-          <h2>Vill: Hamirpur, PO: Rourkela -769003, Dist: Sundargarh, Odisha, India</h2>
-          <p>Mob: 8986893181, E-mail: rkmrourkela@gmail.com & rourkela@rkmm.org</p>
+          <p>
+            (A branch centre of Ramakrishna Mission, P.O.: Belur Math, Dist:
+            Howrah - 711202, West Bengal )
+          </p>
+          <h2>
+            Vill: Hamirpur, PO: Rourkela -769003, Dist: Sundargarh, Odisha,
+            India
+          </h2>
+          <p>
+            Mob: 8986893181, E-mail: rkmrourkela@gmail.com & rourkela@rkmm.org
+          </p>
         </div>
       </div>
     </footer>

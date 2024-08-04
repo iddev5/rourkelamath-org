@@ -1,6 +1,5 @@
 import './InspirationCommon.css';
 import Header from "../Components/Navbar";
-import Footer from "../Components/Footer";
 import { useState, useEffect, useRef } from "react";
 import image from '../Assets/inspiration/Sri-Sarada-Devi.jpg';
 import { accordianCallback } from './util.js';
