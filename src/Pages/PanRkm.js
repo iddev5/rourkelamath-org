@@ -15,8 +15,9 @@ export default function PanRkm() {
           <h1>Pan No. of RKM</h1>
         </div>
         <iframe class="pdf" src={pan_no} />
-        <iframe class="pdf" src={pan_rkm} />
         <a className="document-download" href={pan_no} download="PAN NUMBER OF RAMAKRISHNA MISSION ROURKELA_.pdf">Download</a>
+        <iframe class="pdf" src={pan_rkm} />
+        <a className="document-download" href={pan_rkm} download="PAN Number of RKM.pdf">Download</a>
       </div>
     </>
   );
