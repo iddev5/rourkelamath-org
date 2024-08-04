@@ -1,4 +1,5 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "../Styles/Nav.css";
 import img from "../Assets/emblem.png";
 
@@ -7,6 +8,7 @@ import img from "../Assets/emblem.png";
 
 const Nav = ({Sidebar,SetSidebar}) => {
   const scrollbtn = useRef(null);
+  const location = useLocation();
 
   window.onscroll = () => {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -16,6 +18,10 @@ const Nav = ({Sidebar,SetSidebar}) => {
     }
   }
 
+  useEffect(() => {
+    const list = document.querySelector(`.hb ul li a[href='${location.pathname}']`);
+    list.parentNode.classList.add('navigation-active');
+  }, [location.pathname]);
 
   function scrollTop() {
     document.body.scrollTop = 0;
