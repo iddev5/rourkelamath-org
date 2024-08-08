@@ -60,18 +60,22 @@ const Nav = ({Sidebar,SetSidebar}) => {
           <p>(A branch centre of Ramakrishna Mission, P.O.: Belur Math, Dist: Howrah - 711202, West Bengal)</p>
           </div>
           {<div className="menu-icon">
-          <i class="fa-solid fa-bars" onClick={()=>SetSidebar(prev => prev === false ? true :false )} ></i>
+          <i className="fa-solid fa-bars" onClick={()=>SetSidebar(prev => prev === false ? true :false )} ></i>
           </div>}
         </div>
           <ul className={`navigation-bar ${Sidebar ? '': 'resp-navigation-bar'}`}>
             <li><a href="/">Home</a></li>
             <li>
-              <a>About us</a>
+              <div>
+                <a>About us</a>
+                <i className="arrow-icon fa-solid fa-angle-down"></i>
+              </div>
               <div class="nav-dropdown">
                 <ul>
                   <li><a href="/rmr">Ramakrishna Mission Rourkela</a></li>
                   <li><a>
                     Our Inspiration
+                    <i className="arrow-icon fa-solid fa-angle-right"></i>
                     <div class="nav-dropside">
                       <ul>
                         <li><a href="/sri-ramakrishna">Sri Ramakrishna</a></li>
@@ -88,6 +92,7 @@ const Nav = ({Sidebar,SetSidebar}) => {
             </li>
             <li>
               <a>Activities</a>
+              <i className="arrow-icon fa-solid fa-angle-down"></i>
               <div class="nav-dropdown">
                 <ul>
                   <li><a href="/projects">Educational Projects</a></li>
@@ -104,15 +109,18 @@ const Nav = ({Sidebar,SetSidebar}) => {
             <li><a href="/donate">Donate</a></li>
             <li>
               <a>More</a>
+              <i className="arrow-icon fa-solid fa-angle-down"></i>
               <div class="nav-dropdown">
                 <ul>
                   <li><a>
                     Legal Documents
+                    <i className="arrow-icon fa-solid fa-angle-left"></i>
                     <div class="nav-dropside-left">
                       <ul>
                         <li><a href="/accounts">Accounts</a></li>
                         <li><a>
                           Registration
+                          <i className="arrow-icon fa-solid fa-angle-left"></i>
                           <div class="nav-dropside-left-2">
                             <ul>
                               <li><a href="/reg-certificate">Registration Certificate</a></li>
@@ -161,7 +169,8 @@ const Nav = ({Sidebar,SetSidebar}) => {
     </div>
     
     <button onClick={scrollTop} ref={scrollbtn} className="goto-top">
-      Go to Top
+      <div className="fa-solid fa-arrow-up"></div>
+      <p>Top</p>
     </button >
   </div>
 };
