@@ -24,7 +24,7 @@ function AboutUs() {
             <div className="header">
               <h1>FAQs on joining the Ramakrishna Order</h1>
             </div>
-              <h3>(Frequently Asked Questions)</h3>
+            <p><h3>(Frequently Asked Questions)</h3></p>
             <p>Many youngsters when they come across the inspiring life and teachings of Swami Vivekananda, feel an urge to embrace monastic life in the Ramakrishna Order. For others, the urge to renounce the world may come as a result of their watching/listening to inspiring talks on Spiritual aspects of Hinduism. Disillusionment with worldly attainments and relationships also drive quite a few to the doors of a monastery. Then there are “Be good and Do Good” youth who are impressed by the work of the Ramakrishna Mission and want to dedicate themselves to its service activities. Whatever may be the immediate inspiration, they need to carefully consider quite a few factors before joining the Ramakrishna Order. To help such would-be monks to arrive at the right decision, here is a set of Frequently asked Questions and Answers.</p>
 
             <div ref={acc}>
