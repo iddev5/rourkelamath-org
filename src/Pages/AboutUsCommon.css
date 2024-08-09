@@ -11,8 +11,23 @@
 	width: 15vw;
 }
 
+
 .content {
 	max-width: 60%;
+	padding-left: 19%;
+	padding-right: 21%;
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+	font-size: 1.1em;
+	text-align: justify;
+}
+
+.content-2 {
+	max-width: 60%;
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+	font-size: 1.1em;
+	text-align: justify;
 }
 
 .content h1 {

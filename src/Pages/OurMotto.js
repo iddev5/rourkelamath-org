@@ -10,7 +10,7 @@ function OurMotto() {
       <Header Sidebar={Sidebar} SetSidebar={SetSidebar} />
       <div className="center">
         <div className="content">
-          <h1>Motto of the Organization</h1>
+          <p><h1>Motto of the Organization</h1></p>
           <p>The ideology of the Ramakrishna Math and Ramakrishna Mission, inspired by the teachings of Sri Ramakrishna and Swami Vivekananda, emphasizes the following core tenets:</p>
           <ul>
             <li><p><strong>God Realization</strong>: The ultimate goal of human life is to realize God.</p></li>

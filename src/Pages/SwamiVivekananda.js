@@ -21,7 +21,7 @@ function AboutUs() {
         <div>
           <img src={image} />
           </div>
-          <div className="content">
+          <div className="content-2">
             <div className="header">
               <h1>Swami Vivekananda</h1>
             </div>

@@ -10,7 +10,7 @@ function History() {
       <Header Sidebar={Sidebar} SetSidebar={SetSidebar} />
       <div className="center">
         <div className="content">
-        <h1>Rourkela Ramakrishna Mission</h1>
+        <p><h1>Rourkela Ramakrishna Mission</h1></p>
 
         <p>The Ramakrishna Mission, Rourkela, located in the heart of the tribal-dominated Sundargarh district in Odisha. Founded by dedicated devotees of Sri Ramakrishna in 1978, the Temple was inaugurated by the revered Srimat Swami Vireswaranandaji Maharaj 10th President of Ramakrishna order in the year 1980 and has since been blessed by many senior monks of the holy order.</p>
         <p>In 2019, Belur Math took charge of the Centre to strengthen the Ramakrishna movement in western Odisha, an area with no other Centre of Belurmath.</p>

@@ -20,7 +20,7 @@ function SriSaradaDevi() {
         <div>
           <img src={image} />
           </div>
-          <div className="content">
+          <div className="content-2">
             <div className="header">
               <h1>Sri Sarada Devi</h1>
             </div>

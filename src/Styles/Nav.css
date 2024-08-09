@@ -53,6 +53,12 @@
   gap: 20px;
 }
 
+.nav-added {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .arrow-icon {
   margin-left: 4px;
 }

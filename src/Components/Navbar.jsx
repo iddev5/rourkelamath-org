@@ -66,16 +66,17 @@ const Nav = ({Sidebar,SetSidebar}) => {
           <ul className={`navigation-bar ${Sidebar ? '': 'resp-navigation-bar'}`}>
             <li><a href="/">Home</a></li>
             <li>
-              <div>
+              <div className="nav-added">
                 <a>About us</a>
                 <i className="arrow-icon fa-solid fa-angle-down"></i>
               </div>
               <div class="nav-dropdown">
                 <ul>
                   <li><a href="/rmr">Ramakrishna Mission Rourkela</a></li>
-                  <li><a>
+                  <li><div><a className="nav-added">
                     Our Inspiration
                     <i className="arrow-icon fa-solid fa-angle-right"></i>
+                    </a>  
                     <div class="nav-dropside">
                       <ul>
                         <li><a href="/sri-ramakrishna">Sri Ramakrishna</a></li>
@@ -83,7 +84,8 @@ const Nav = ({Sidebar,SetSidebar}) => {
                         <li><a href="/swami-vivekananda">Swami Vivekananda</a></li>
                       </ul>
                     </div>
-                  </a></li>
+                  </div>
+                  </li>
                   <li><a href="/our-motto">Our Motto</a></li>
                   <li><a href="/history">History of Rourkela Mission</a></li>
                   <li><a href="/emblem">Our Emblem</a></li>
@@ -112,13 +114,13 @@ const Nav = ({Sidebar,SetSidebar}) => {
               <i className="arrow-icon fa-solid fa-angle-down"></i>
               <div class="nav-dropdown">
                 <ul>
-                  <li><a>
+                  <li><a className="nav-added">
                     Legal Documents
                     <i className="arrow-icon fa-solid fa-angle-left"></i>
                     <div class="nav-dropside-left">
                       <ul>
                         <li><a href="/accounts">Accounts</a></li>
-                        <li><a>
+                        <li><a className="nav-added">
                           Registration
                           <i className="arrow-icon fa-solid fa-angle-left"></i>
                           <div class="nav-dropside-left-2">

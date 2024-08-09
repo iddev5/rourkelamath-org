@@ -42,6 +42,7 @@
 
 .panel {
 	max-height: 0;
+	margin: 1em !important;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 }

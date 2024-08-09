@@ -12,7 +12,7 @@ function Emblem() {
       <div className="center">
         <img src={emblem} />
         <div className="content">
-          <h1>Our Emblem</h1>
+          <p><h1>Our Emblem</h1></p>
           <p>Vivekananda's motto for his organization, "Atmano Mokshartham Jagaddhitaya Cha" (For the liberation of the Self and service to the society), encapsulates the dual goals of personal spiritual liberation and societal welfare. The emblem he designed is rich with symbolism:</p>
           <ol>
             <li><p><strong>Elegant Swan</strong>: Represents purity and spiritual transcendence.</p></li>
