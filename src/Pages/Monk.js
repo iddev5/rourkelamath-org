@@ -20,6 +20,10 @@ function AboutUs() {
         <div className="center">
           </div>
         <div className="center">
+            <div id="sign2">
+              <p>"Religion, which is the highest knowledge and the highest wisdom, cannot be bought, nor can it be acquired from books. You may thrust your head into all the corners of the world, you may explore the Himalayas, the Alps, and the Caucasus, you may sound the bottom of the sea and pry into every nook of Tibet and the desert of Gobi, you will not find it anywhere until your heart is ready for receiving it and your teacher has come. And when that divinely appointed teacher comes, serve him with childlike confidence and simplicity, freely open your heart to his influence, and see in him God manifested. Those who come to seek truth with such a spirit of love and veneration, to them the Lord of Truth reveals the most wonderful things regarding truth, goodness, and beauty."</p>
+              <p id="signright">- Swami Vivekanandan</p>
+            </div>
           <div className="content">
             <div className="header">
               <h1>FAQs on joining the Ramakrishna Order</h1>

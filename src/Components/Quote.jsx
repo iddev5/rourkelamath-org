@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/Quote.css";
-import quote1 from "../Assets/left-quote.jpg";
-import quote2 from "../Assets/right-quote.jpg";
+import placeholder from "../Assets/placeholder.jpg";
 
 const Quote = () => {
   return (
@@ -9,10 +8,10 @@ const Quote = () => {
       <h1>Quotes</h1>
       <div id="quote-div">
         <div className="left-quote-img">
-          <img src={quote1} alt="" />
+          <img src={placeholder} alt="" />
         </div>
         <div className="right-quote-img">
-          <img src={quote2} alt="" />
+          <img src={placeholder} alt="" />
         </div>
       </div>
       <button>

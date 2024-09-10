@@ -25,6 +25,33 @@
 	align-items: center;
 }
 
+#sign2 {
+  font-family: bdf;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+	margin-bottom: 5vh;
+  line-height: 1.8;
+  background-color: #f7b86e;
+  color: #000;
+  border: 2px solid #000;
+	border-radius: 20px;
+	word-spacing: 4px;
+}
+
+#sign2 p {
+  padding: 8px;
+  font-size: 1.4em;
+  font-weight: 500;
+  text-align: justify;
+}
+
+#sign2 p#signright {
+	text-align: right;
+}
+
 .accordian {
 	background-color: #f7f7b9;
 	cursor: pointer;

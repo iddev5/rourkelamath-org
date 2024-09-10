@@ -4,7 +4,6 @@ import Welcome from "../Components/Welcome";
 import CurrentEvents from "../Components/CurrentEvents";
 import Announcements from "../Components/Announcements";
 import Inspiration from "../Components/Inspiration";
-import RecentUpdates from "../Components/RecentUpdates";
 import Footer from "../Components/Footer";
 import Quote from "../Components/Quote";
 import Arti from "../Components/Arti";
@@ -17,11 +16,10 @@ function Home() {
       <Header Sidebar={Sidebar} SetSidebar={SetSidebar} />
       <Slider />
       <Welcome />
-      <Announcements />
       <Inspiration />
-      <RecentUpdates />
+      <Announcements />
       <Arti />
-      <Quote />
+      {/*<Quote />*/}
       <Footer />
     </>
   );

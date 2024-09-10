@@ -13,6 +13,7 @@ import Events from "./Pages/Events.js";
 import Monk from "./Pages/Monk.js";
 import Computer from "./Pages/Computer.js";
 import Projects from "./Pages/Projects.js";
+import Relief from "./Pages/Relief.js";
 import Donate from "./Pages/Donate.js";
 import ReligiousActivities from "./Pages/ReligiousActivities.js";
 import RegCertificate from "./Pages/RegCertificate.js";
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
+  },
+  {
+    path: "/relief-work",
+    element: <Relief />,
   },
   {
     path: "/donate",

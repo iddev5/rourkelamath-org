@@ -77,12 +77,21 @@
   text-align: justify;
 }
 
+#sign p {
+  font-size: 1.4em;
+}
+
+#quotetitle {
+  margin-top: 5vh;
+  border-bottom: 1px solid black;
+}
+
 #quote {
   margin-top: 2vh;
   margin-bottom: 4vh;
   border-left: 10px solid #6C0345;
   border-right: 10px solid #6C0345;
-  width: 50%;
+  width: 70%;
   background: #ffffff77;
   border-radius: 25px;
   display: flex;
@@ -105,6 +114,10 @@
 
 #quote h2 {
   display: block;
+  font-family: bdf;
+  font-size: 2em;
+  letter-spacing: 2px;
+  word-spacing: 7px;
 }
 
 #quote h1 span {

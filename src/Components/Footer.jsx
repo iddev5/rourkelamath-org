@@ -29,37 +29,6 @@ const Footer = () => {
               <p>rkmrourkela@gmail.com</p>
             </div>
           </div>
-          <div className="containers">
-            <div className="icon">
-              <i className="fa-solid fa-phone" style={{ color: "#470D21" }}></i>
-            </div>
-            <div className="info">
-              <p>+91-8986893181</p>
-            </div>
-          </div>
-          <div className="containers">
-            <div className="icon">
-              <i
-                className="fa-regular fa-clock"
-                style={{ color: "#470D21" }}
-              ></i>
-            </div>
-            <div className="info">
-              <p>Temple Timings 05.00 am to 12:30pm 04:30 pm to 08:30pm</p>
-            </div>
-          </div>
-          <div className="containers">
-            <div className="icon">
-              <i
-                className="fa-regular fa-thumbs-up"
-                style={{ color: "#470D21" }}
-              ></i>
-            </div>
-
-            <div className="info">
-              <p>Follow us</p>
-            </div>
-          </div>
         </div>
       </div>
       <div id="map-section">
@@ -78,19 +47,17 @@ const Footer = () => {
 
       <div id="right-info">
         <h1>Ramakrishna Mission, Rourkela</h1>
-        <div id="site-links">
-          <p>
-            (A branch centre of Ramakrishna Mission, P.O.: Belur Math, Dist:
-            Howrah - 711202, West Bengal )
-          </p>
-          <h2>
-            Vill: Hamirpur, PO: Rourkela -769003, Dist: Sundargarh, Odisha,
-            India
-          </h2>
-          <p>
-            Mob: 8986893181, E-mail: rkmrourkela@gmail.com & rourkela@rkmm.org
-          </p>
-        </div>
+          <div className="containers">
+            <div className="icon">
+              <i
+                className="fa-regular fa-clock"
+                style={{ color: "#470D21" }}
+              ></i>
+            </div>
+            <div className="info">
+              <p>Temple Timings 05.00 am to 12:30pm 04:30 pm to 08:30pm</p>
+            </div>
+          </div>
       </div>
     </footer>
   );

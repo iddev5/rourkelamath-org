@@ -2,36 +2,42 @@ import Header from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import { useState } from "react";
 import './AboutUsCommon.css';
-import img1 from "../Assets/appeal/1.jpg";
-import img2 from "../Assets/appeal/2.jpg";
-import img3 from "../Assets/appeal/3.jpg";
-import img4 from "../Assets/appeal/4.jpg";
-import img5 from "../Assets/appeal/5.jpg";
-import img6 from "../Assets/appeal/6.jpg";
-import img7 from "../Assets/appeal/7.jpg";
-import img8 from "../Assets/appeal/8.jpg";
-import img9 from "../Assets/appeal/8.jpg";
-import img10 from "../Assets/appeal/10.jpg";
-import img11 from "../Assets/appeal/11.jpg";
-import img12 from "../Assets/appeal/12.jpg";
-import img13 from "../Assets/appeal/13.jpg";
-import img14 from "../Assets/appeal/14.jpg";
-import img15 from "../Assets/appeal/15.jpg";
-import img16 from "../Assets/appeal/16.jpg";
-import img17 from "../Assets/appeal/17.jpg";
-import img18 from "../Assets/appeal/18.jpg";
-import img19 from "../Assets/appeal/19.jpg";
-import img20 from "../Assets/appeal/20.jpg";
-import img21 from "../Assets/appeal/21.jpg";
-import img22 from "../Assets/appeal/22.jpg";
+import img1 from "../Assets/appeal/0001.jpg";
+import img2 from "../Assets/appeal/0002.jpg";
+import img3 from "../Assets/appeal/0003.jpg";
+import img4 from "../Assets/appeal/0004.jpg";
+import img5 from "../Assets/appeal/0005.jpg";
+import img6 from "../Assets/appeal/0006.jpg";
+import img7 from "../Assets/appeal/0007.jpg";
+import img8 from "../Assets/appeal/0008.jpg";
+import img9 from "../Assets/appeal/0008.jpg";
+import img10 from "../Assets/appeal/0010.jpg";
+import img11 from "../Assets/appeal/0011.jpg";
+import img12 from "../Assets/appeal/0012.jpg";
+import img13 from "../Assets/appeal/0013.jpg";
+import img14 from "../Assets/appeal/0014.jpg";
+import img15 from "../Assets/appeal/0015.jpg";
+import img16 from "../Assets/appeal/0016.jpg";
+import img17 from "../Assets/appeal/0017.jpg";
+import img18 from "../Assets/appeal/0018.jpg";
+import img19 from "../Assets/appeal/0019.jpg";
+import img20 from "../Assets/appeal/0020.jpg";
+import img21 from "../Assets/appeal/0021.jpg";
+import img22 from "../Assets/appeal/0022.jpg";
+import img23 from "../Assets/appeal/0023.jpg";
+import img24 from "../Assets/appeal/0024.jpg";
+import img25 from "../Assets/appeal/0025.jpg";
+import img26 from "../Assets/appeal/0026.jpg";
+import img27 from "../Assets/appeal/0027.jpg";
+import img28 from "../Assets/appeal/0028.jpg";
 
 export default function RMR() {
  const[Sidebar,SetSidebar]=useState(true) 
   return (
     <>
       <Header Sidebar={Sidebar} SetSidebar={SetSidebar} />
+      <div className="content">
       <div className="center">
-        <div className="content">
         <p><h1>AN APPEAL</h1></p>
 
         <p>Rourkela Ramakrishna Mission</p>
@@ -52,7 +58,10 @@ export default function RMR() {
 
 
           <p><h1>Photos revealing the dilapidated condition of Shri Ramakrishna Sangha rest-while a private center in the year 2019 under Odisha Bhava Prachar Parishad</h1></p>
-          <div className="gallery">
+          </div>
+        </div>
+        <div className="center">
+          <div className="gallery-4">
             <img src={img1} />
             <img src={img2} />
             <img src={img3} />
@@ -75,7 +84,12 @@ export default function RMR() {
             <img src={img20} />
             <img src={img21} />
             <img src={img22} />
-          </div>
+            <img src={img23} />
+            <img src={img24} />
+            <img src={img25} />
+            <img src={img26} />
+            <img src={img27} />
+            <img src={img28} />
         </div>
       </div>
     </>

@@ -78,12 +78,16 @@ function Projects() {
                         89108 03937, providing your details and PAN number. You
                         may also directly contribute to our bank account:
                     </p>
-                    <p>
-                        Bank Name: <span className="highlight">Bank of Baroda Branch: Sector-19, Rourkela
-                        Account Name: Ramakrishna Mission, Rourkela Account
-                        Number: 00490100017712 IFSC Code: BARB0ROURKE MICR Code:
-                        769012002</span>
-                    </p>
+                    <span className="highlight">
+                        <strong><p><u>Bank Name</u>: Bank of Baroda Branch: Sector-19, Rourkela</p>
+                        <p><u>Account Name</u>: Ramakrishna Mission</p></strong>
+                    <strong>
+                        <p><u>Account Number</u>: 00490100017712</p> 
+                        <p><u>IFSC Code</u>: BARB0ROURKE</p> 
+                        <p><u>MICR Code</u>: 769012002</p>
+                    </strong>
+                    </span>
+                    
                     <p>
                         With profound gratitude and anticipation, we await your
                         kind support and cooperation in our collective endeavor
