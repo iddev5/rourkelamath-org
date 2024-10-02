@@ -20,6 +20,7 @@ import RegCertificate from "./Pages/RegCertificate.js";
 import Legal from "./Pages/Legal.js";
 import Charter from "./Pages/Charter.js";
 import Gst from "./Pages/Gst.js";
+import Calendar from "./Pages/Calendar.js";
 import PanRkm from "./Pages/PanRkm.js";
 import Land from "./Pages/Land.js";
 import RMR from "./Pages/RMR.js";
@@ -94,6 +95,10 @@ const router = createBrowserRouter([
   {
     path: "/gst",
     element: <Gst />,
+  },
+  {
+    path: "/calendar",
+    element: <Calendar />,
   },
   {
     path: "/pan-rkm",
