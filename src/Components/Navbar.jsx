@@ -10,6 +10,9 @@ const Nav = ({Sidebar,SetSidebar}) => {
   const scrollbtn = useRef(null);
   const location = useLocation();
 
+  let all_navs = document.querySelectorAll(".nav-dropdown li, .navigation-bar li");
+
+  useEffect(() => {
   window.onscroll = () => {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       scrollbtn.current.style.display = "block";
@@ -17,6 +20,43 @@ const Nav = ({Sidebar,SetSidebar}) => {
       scrollbtn.current.style.display = "none";
     }
   }
+
+  window.onclick = (ev) => {
+    let cond = true
+    for (let i of all_navs) {
+      console.log(ev)
+      if (i.contains(ev.target)) {
+        cond = false;
+        break;
+      }
+    }
+    if (cond) closeAllNav();
+  }
+}, []);
+
+  function closeAllNav() {
+    let lis = document.querySelectorAll(".nav-dropdown li, .navigation-bar li");
+    lis.forEach(li => li.childElementCount > 1 && (li.lastChild.style.display = "none"));
+  }
+
+  useEffect(() => {
+    let lis = document.querySelectorAll(".navigation-bar li");
+    lis.forEach(li => li.addEventListener("click", () => {
+      closeAllNav();
+
+      li.lastChild.style.display = "block";
+    }))
+
+    lis = document.querySelectorAll(".nav-dropdown li")
+    lis.forEach(li => li.addEventListener("click", () => {
+      closeAllNav();
+      const dropside = li.querySelector(".nav-dropside, .nav-dropside-left, .nav-dropside-left-2")
+      if (dropside)
+        dropside.style.display = "block";
+
+      li.lastChild.style.display = "block";
+    }))
+  }, []);
 
   useEffect(() => {
     const list = document.querySelector(`.hb ul li a[href='${location.pathname}']`);
@@ -76,7 +116,7 @@ const Nav = ({Sidebar,SetSidebar}) => {
                   <li><div><a className="nav-added">
                     Our Inspiration
                     <i className="arrow-icon fa-solid fa-angle-right"></i>
-                    </a>  
+                    </a>
                     <div class="nav-dropside">
                       <ul>
                         <li><a href="/sri-ramakrishna">Sri Ramakrishna</a></li>
