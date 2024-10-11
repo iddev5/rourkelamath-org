@@ -3,7 +3,7 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background: #f2e499;
+  background: #f7d49b; /*#f2e499;*/
   box-shadow: 0px 5px 20px #040404;
   justify-content: space-around;
   align-items: center;
@@ -148,7 +148,7 @@
 .nav-dropdown {
   display: none;
   position: absolute;
-  background: #f7f7b9;
+  background: #fff0b5;
   margin-top: 5px; 
   border-radius: 5px;
   box-shadow: 5px 5px 20px #040404;
@@ -164,7 +164,7 @@
   position: absolute;
   left: 100%;
   top: -1%;
-  background: #f7f7b9;
+  background: #fff0b5;
   box-shadow: 5px 5px 20px #040404;
   margin-top: 5px; 
   border-radius: 5px;
@@ -176,7 +176,7 @@
   position: absolute;
   right: 100%;
   top: -1%;
-  background: #f7f7b9;
+  background: #fff0b5;
   box-shadow: 5px 5px 20px #040404;
   margin-top: 5px; 
   border-radius: 5px;
@@ -188,7 +188,7 @@
   position: absolute;
   right: 100%;
   top: -1%;
-  background: #f7f7b9;
+  background: #fff0b5;
   box-shadow: 5px 5px 20px #040404;
   margin-top: 5px; 
   border-radius: 5px;
@@ -258,7 +258,7 @@
   .resp-navigation-bar {
     display: block;
     flex-direction: column;
-    background: #f7f7b9;
+    background: #fff0b5;
     width: 100%;
   }
   .resp-navigation-bar li{
