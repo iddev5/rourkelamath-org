@@ -154,11 +154,6 @@
   box-shadow: 5px 5px 20px #040404;
 }
 
-.nav-dropdown li {
-  padding-bottom: 0.3em;
-  padding-right: 1vw;
-}
-
 .nav-dropside {
   display: none;
   position: absolute;
@@ -197,6 +192,8 @@
 .nav-dropdown a {
   display: block;
   width: 100%;
+  padding-bottom: 0.3em;
+  padding-right: 1vw;
 }
 
 .nav-dropdown li:hover .nav-dropside {
@@ -222,10 +219,6 @@
   border-radius: 20px;
 }
 
-
-
-
-
 .navigation-bar {
   display: flex;
 
@@ -233,14 +226,18 @@
 
 .navigation-bar li {
   display: block;
+  padding: 4px;
+}
+
+.navigation-bar a {
   padding-left: 1vw;
   padding-right: 1vw;
   padding-top: 1vh;
   padding-bottom: 1vh;
-  margin: 4px;
+  width: inherit;
 }
 
-.navigation-bar li:hover {
+.navigation-bar a:hover {
   background: #e67e22;
   border-radius: 20px;
 }

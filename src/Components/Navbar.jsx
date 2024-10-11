@@ -106,10 +106,11 @@ const Nav = ({ Sidebar, SetSidebar }) => {
         <ul className={`navigation-bar ${Sidebar ? '' : 'resp-navigation-bar'}`}>
           <li><a href="/">Home</a></li>
           <li>
-            <div className="nav-added">
-              <a>About us</a>
+              <a>About us
+
               <i className="arrow-icon fa-solid fa-angle-down"></i>
-            </div>
+
+              </a>
             <div class="nav-dropdown">
               <ul>
                 <li><a href="/rmr">Ramakrishna Mission Rourkela</a></li>
@@ -133,8 +134,10 @@ const Nav = ({ Sidebar, SetSidebar }) => {
             </div>
           </li>
           <li>
-            <a>Activities</a>
+            <a>Activities
             <i className="arrow-icon fa-solid fa-angle-down"></i>
+
+            </a>
             <div class="nav-dropdown">
               <ul>
                 <li><a href="/projects">Educational Projects</a></li>
