@@ -56,7 +56,6 @@ export default function RMR() {
           Secretary<br />
           Ramakrishna Mission, Rourkela</p>
 
-
           <p><h1>Photos revealing the dilapidated condition of Shri Ramakrishna Sangha rest-while a private center in the year 2019 under Odisha Bhava Prachar Parishad</h1></p>
           </div>
         </div>

@@ -10,8 +10,6 @@ const Nav = ({ Sidebar, SetSidebar }) => {
   const scrollbtn = useRef(null);
   const location = useLocation();
 
-  let all_navs = document.querySelectorAll(".nav-dropdown li, .navigation-bar li");
-
   useEffect(() => {
     window.onscroll = () => {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -20,43 +18,45 @@ const Nav = ({ Sidebar, SetSidebar }) => {
         scrollbtn.current.style.display = "none";
       }
     }
-
-    window.onclick = (ev) => {
-      let cond = true
-      for (let i of all_navs) {
-        console.log(ev)
-        if (i.contains(ev.target)) {
-          cond = false;
-          break;
-        }
-      }
-      if (cond) closeAllNav();
-    }
   }, []);
+  // let all_navs = document.querySelectorAll(".nav-dropdown li, .navigation-bar li");
+  // 
+  //   window.onclick = (ev) => {
+  //     let cond = true
+  //     for (let i of all_navs) {
+  //       console.log(ev)
+  //       if (i.contains(ev.target)) {
+  //         cond = false;
+  //         break;
+  //       }
+  //     }
+  //     // if (cond) closeAllNav();
+  //   }
+  // }, []);
 
-  function closeAllNav() {
-    let lis = document.querySelectorAll(".nav-dropdown li, .navigation-bar li");
-    lis.forEach(li => li.childElementCount > 1 && (li.lastChild.style.display = "none"));
-  }
+  // function closeAllNav() {
+  //   let lis = document.querySelectorAll(".nav-dropdown li, .navigation-bar li");
+  //   lis.forEach(li => li.childElementCount > 1 && (li.lastChild.style.display = "none"));
+  // }
 
-  useEffect(() => {
-    let lis = document.querySelectorAll(".navigation-bar li");
-    lis.forEach(li => li.addEventListener("click", () => {
-      closeAllNav();
+  // useEffect(() => {
+  //   let lis = document.querySelectorAll(".navigation-bar li");
+  //   lis.forEach(li => li.addEventListener("click", () => {
+  //     closeAllNav();
 
-      li.lastChild.style.display = "block";
-    }))
+  //     li.lastChild.style.display = "block";
+  //   }))
 
-    lis = document.querySelectorAll(".nav-dropdown li")
-    lis.forEach(li => li.addEventListener("click", () => {
-      closeAllNav();
-      const dropside = li.querySelector(".nav-dropside, .nav-dropside-left, .nav-dropside-left-2")
-      if (dropside)
-        dropside.style.display = "block";
+  //   lis = document.querySelectorAll(".nav-dropdown li")
+  //   lis.forEach(li => li.addEventListener("click", () => {
+  //     closeAllNav();
+  //     const dropside = li.querySelector(".nav-dropside, .nav-dropside-left, .nav-dropside-left-2")
+  //     if (dropside)
+  //       dropside.style.display = "block";
 
-      li.lastChild.style.display = "block";
-    }))
-  }, []);
+  //     li.lastChild.style.display = "block";
+  //   }))
+  // }, []);
 
   useEffect(() => {
     const list = document.querySelector(`.hb ul li a[href='${location.pathname}']`);
@@ -166,7 +166,6 @@ const Nav = ({ Sidebar, SetSidebar }) => {
                         <div class="nav-dropside-left-2">
                           <ul>
                             <li><a href="/reg-certificate">Registration Certificate</a></li>
-                            <li><a href="/pan-no">Pan No.</a></li>
                             <li><a href="/gst">GST</a></li>
                             <li><a href="/charter-of-mc">Charter of MC</a></li>
                             <li><a href="/pan-rkm">Pan No of RKM</a></li>

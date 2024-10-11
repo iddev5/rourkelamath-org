@@ -13,12 +13,13 @@ const Slider = () => {
     <div className="slider">
       <Carousel
         infiniteLoop={true}
+        autoFocus={true}
         autoPlay={true}
         showStatus={false}
-        interval={2000}
+        interval={3000}
         showIndicators={false}
         ariaLabel="false"
-        showArrows={true}
+        showArrows={false}
         showThumbs={false}
       >
         <div>

@@ -35,6 +35,7 @@
 	text-align: center;
 	padding-bottom: 10px;
 	border-bottom: 1px solid black;
+	font-size: 2.5em;
 }
 
 .content h3 {
@@ -51,6 +52,11 @@
 	margin-top: 1vw;
 	width: 80vw;
 	height: 100vh;
+}
+
+#tan-img img {
+	padding-top: 5vh;
+	width: 100%;
 }
 
 .gallery {
@@ -88,6 +94,10 @@
 
 .document-download:hover {
 	background-color: #d92015;
+}
+
+.visit-us-page {
+	padding: 5vh 20vw;
 }
 
 @media only screen and (max-width: 991px) {

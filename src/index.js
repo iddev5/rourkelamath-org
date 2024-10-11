@@ -25,6 +25,8 @@ import PanRkm from "./Pages/PanRkm.js";
 import Land from "./Pages/Land.js";
 import RMR from "./Pages/RMR.js";
 import Appeal from "./Pages/Appeal.js";
+import Tan from "./Pages/Tan.js";
+import VisitUsPage from "./Pages/VisitUs";
 
 const router = createBrowserRouter([
   {
@@ -97,6 +99,10 @@ const router = createBrowserRouter([
     element: <Gst />,
   },
   {
+    path: "/tan",
+    element: <Tan />
+  },
+  {
     path: "/calendar",
     element: <Calendar />,
   },
@@ -115,6 +121,10 @@ const router = createBrowserRouter([
   {
     path: "/rmr",
     element: <RMR />,
+  },
+  {
+    path: "/visit-us",
+    element: <VisitUsPage />,
   },
   {
     path: "/appeal",

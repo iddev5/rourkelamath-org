@@ -15,7 +15,7 @@ function Relief() {
       <Header Sidebar={Sidebar} SetSidebar={SetSidebar} />
       <div className="center">
         <div className="header">
-          <h1>Distance Relief</h1>
+          <h1>Distress Relief</h1>
         </div>
         <div className="gallery">
           <img src={img1} />
