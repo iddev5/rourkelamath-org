@@ -8,7 +8,7 @@ const Welcome = () => {
     <div id="welcome">
       <div className="w1">
         <h1>Ramakrishna Mission, Rourkela </h1>
-        <div>
+        <div className="w1-bottom">
           <h2>A branch centre of Ramakrishna Mission</h2>
         </div>
       </div>

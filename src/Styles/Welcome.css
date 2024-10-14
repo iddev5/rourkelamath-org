@@ -189,9 +189,63 @@
 
 
 @media (max-width: 991px) {
-  #welcome {
-    position: relative;
-    top: 30vh;
+  .w1-bottom {
+    text-align: center;
   }
+
+  #sign {
+    width: 90%;
+    margin-left: 5vw;
+    margin-right: 5vw;  
+    padding: 4px;
+  }
+
+  #sign h2 {
+    font-size: 1.2em;
+  }
+
+  #quotetitle {
+    text-align: center;
+  }
+
+  #quote {
+    width: 80%;
+    padding: 10px;
+  }
+
+  #quote h2 {
+    font-size: 1.4em;
+  }
+
+  .title-block h2 {
+    font-size: 1.2em;
+  }
+
+  #title-left {
+    width: 100vw;
+  }
+
+
+  .title-block img {
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .title-vision {
+    display:block;
+  }
+
+  .title-vision h2 {
+    padding-right: 4vw;
+    font-size: 1em;
+
+  }
+
+  /* TODO: what to do? */
+  #title-right {
+    display: none;
+    visibility: hidden;
+  }
+  
 }
 

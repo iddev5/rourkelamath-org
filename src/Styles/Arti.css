@@ -1,6 +1,5 @@
 #arti-section{
   padding-top: 20px;
-  height: 80vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -10,11 +9,8 @@
 }
 
 #timing{  
-  height: 60vh;
   width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;  
 }
 
 #timing-container {
@@ -63,20 +59,19 @@
 
 @media (max-width:600px){
   #arti-section{
-    height: 85vh;
-    display: flex;
-    justify-content: space-evenly;
+    height: 120vh;
   }
   #arti-section h1{
-    font-size: 6vw;
+    text-align: center;
   }
   #timing{
+    height: 100%;
     flex-direction: column;
     gap: 10px;
   }
   #timing-container .img img{
-    height: 29vw;
-    
+    width: 90vw;
+    height: 100%;
   }
 
 }

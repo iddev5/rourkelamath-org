@@ -340,6 +340,11 @@
     width: 100vw;
     height: 6vh;
     justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .nav-dropdown, .nav-dropside, .nav-dropside-left, .nav-dropside-left-2 {
+    box-shadow: none;
   }
 
 }
@@ -347,6 +352,10 @@
 @media (max-width:600px){
   .hb .logo img{
     height: 3vh;
+  }
+
+  .nav .logo h1 {
+    font-size: 0.85em;
   }
   
 }

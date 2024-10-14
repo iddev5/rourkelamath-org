@@ -26,6 +26,7 @@ import Land from "./Pages/Land.js";
 import RMR from "./Pages/RMR.js";
 import Appeal from "./Pages/Appeal.js";
 import Tan from "./Pages/Tan.js";
+import Gallery from "./Pages/Gallery.js";
 import VisitUsPage from "./Pages/VisitUs";
 
 const router = createBrowserRouter([
@@ -129,6 +130,10 @@ const router = createBrowserRouter([
   {
     path: "/appeal",
     element: <Appeal />,
+  },
+  {
+    path: "/gallery",
+    element: <Gallery />,
   },
 ])
 

@@ -36,4 +36,8 @@
   #announcement img {
     width: 90vw;
   }
+
+  #announcement .header h1 {
+    text-align: center;
+  }
 }
