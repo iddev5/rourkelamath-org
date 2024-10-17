@@ -33,22 +33,19 @@ const Welcome = () => {
                   that God alone is real and all else is an illusion.”
                 </h2>
             </div>
-            <div className="title-block">
-              <img src={vision_left} />
               <div className="title-vision">
                 <div id="title-left">
                   <div className="signtitle">
                     <h1>Vision</h1>
                   </div>
-                  <h2>
+                  <p>
                     Ramakrishna Math and Mission stands on the “edge of one of the megatrends of modern world history”, holding immense possibilities for the welfare and elevation of humanity in the coming centuries of the Third Millennium.
-                  </h2>
+                  </p>
                 </div>
                 <div id="title-right">
                   <img src={vision_right} />
                 </div>  
               </div>
-            </div>
       </div>
     </div>
   );

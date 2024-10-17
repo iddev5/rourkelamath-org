@@ -12,7 +12,6 @@ export default function RMR() {
         <div className="content">
     <p><h1>Welcome to Ramakrishna Mission, Rourkela</h1></p>
     <div className="split">
-      
       <div>
       <p>
         Ramakrishna Mission, Rourkela, is a vital branch center of Ramakrishna Math
@@ -21,47 +20,9 @@ export default function RMR() {
         spiritual organization committed to humanitarian and social service
         activities.
       </p>
-      <p>
-        <h2>Inspired by Spiritual Ideals</h2>
-      </p>
-      <p>
-        Founded by Sri Ramakrishna (1836-1886), a revered 19th-century saint, and his
-        foremost disciple Swami Vivekananda (1863-1902), a visionary leader renowned
-        as a key shaper of the modern world. Despite being legally distinct,
-        Ramakrishna Math and Ramakrishna Mission are closely interconnected,
-        spearheading a universal spiritual movement aimed at catalyzing the spiritual
-        upliftment of humanity.
-      </p>
       </div>
     </div>
   
-<p>
-  <h2>Guiding Philosophy</h2>
-</p>
-<p>Rooted in these principles are:</p>
-<ul>
-  <li>
-    <p>
-      <b>Freedom and liberation</b> from ignorance, narrowness, and social
-      inequalities.
-    </p>
-  </li>
-
-  <li>
-    <p>
-      <b>Synthesis of the four yogas</b>
-      (jnanayoga, bhaktiyoga, karmayoga, and rajayoga).
-    </p>
-  </li>
-
-  <li>
-    <p>
-      <b>Harmony of religions</b> and the balance between the secular and the
-      sacred.
-    </p>
-  </li>
-</ul>
-
 <p>
   <h2>Vision and Mission</h2>
 </p>
@@ -160,16 +121,6 @@ export default function RMR() {
   is embodied in an aphoristic principle given by his Master Sri Ramakrishna:
   शिव ज्ञाने जीव सेव (<i>Shiva jnane jiva seva)</i>, that is, “s<i
     >ervice of man is worship of God</i
-  >” or “<i>service of God in man</i>”. This is the guiding&nbsp;
-</p>
-<p>
-  The practical implementation of the motto he gave the Ramakrishna Mission,
-  namely, आत्मनो मोक्षार्थं जगद्धिताय च (<i
-    >Atmano Mokshartham Jagaddhitaya Cha)</i
-  >, meaning “<i>for one’s own liberation and for the welfare of the world</i>”
-  is embodied in an aphoristic principle given by his Master Sri Ramakrishna:
-  शिव ज्ञाने जीव सेव (<i>Shiva jnane jiva seva)</i>, that is, “s<i
-    >ervice of man is worship of God</i
   >” or “<i>service of God in man</i>”. This is the guiding force.
 </p>
 <p>
@@ -194,28 +145,10 @@ export default function RMR() {
 </p>
 <p></p>
 <p>
-  <b>Founder's Vision</b>
+  <h2>Rourkela Ramakrishna Mission and its surrounding places</h2>
 </p>
-<p>In the words of Swami Vivekananda:</p>
-<ul>
-  <li>
-    <p>
-      &quot;My ideal is to preach unto mankind their divinity and how to make it
-      manifest in every movement of life.&quot;
-    </p>
-  </li>
-
-  <li>
-    <p>
-      &quot;तन्नो हंस: प्रचोदयात्&quot; (Tanno hamsah prachodayat), meaning
-      &quot;May the Paramatman, Supreme Self, awaken our higher
-      understanding.&quot;
-    </p>
-  </li>
-</ul>
-
 <p>
-  Ramakrishna Ramakrishna Mission Rourkela, situated near Hamirpur village on
+  Ramakrishna Mission Rourkela, situated near Hamirpur village on
   the outskirts of Rourkela, is immersed in a landscape adorned with tribal
   villages. The area offers several notable places to explore:
 </p>
@@ -263,28 +196,6 @@ export default function RMR() {
   essence of the region surrounding Ramakrishna Mission Rourkela.
 </p>
 <p></p>
-<p></p>
-<p><h2>Vision</h2></p>
-<p>
-  <b
-    >It will be a great centre of tolerance and universal acceptance, of grand
-    harmony of all religions, creeds and faiths, sending forth the shining
-    message of goodwill, peace and harmony taking the whole universe to
-    liberation.</b
-  >
-  The vision and mission of Ramakrishna Math and Ramakrishna Mission is best
-  described in the words of its great founder Swami Vivekananda —
-</p>
-<p>
-  “<i
-    >My ideal indeed can be put into few words and that is: to preach unto
-    mankind their divinity and how to make it manifest in every movement in
-    life”.</i
-  >
-  तन्नो हंस: प्रचोदयात् (<i>Tanno hamsah prachodayat)</i>, meaning, “May the
-  Paramatman, Supreme Self [symbolized by] the Swan (hamsa), awaken our [higher]
-  understanding.”
-</p>
 <p></p>
         </div>
       </div>

@@ -1,4 +1,5 @@
-qoutes cursor up
+
+
 About Us
 	- Ramakrishna mission rourkela <------------------------- Home Page.docx
 	- Our insp - First 3 only - done
@@ -6,36 +7,49 @@ About Us
 	- History of Rourkela mission - done
 	- Our emblem - done
 
-keep navbar fixed
-add a reach to top button
-
 - Activities
-	- Educational Projects - headding: Project Jnana yatra
+	- Educational Projects - headding: Project Jnana yatra =========================> DONE
 		JnanaYatra, a mobile educational cab to promote value education to schools and colleges and to organize orientation program of human excellence among youth
 		This transformative project endeavors to bridge the educational gap by engaging with rural students through an interactive audio-visual unit. The project orchestrates motivational camps, orientation programs, and academic guidance sessions, empowering 433 students across 29 visits conducted during the year.
 		= then 4-5 photos
-	- Computer Basic Training - drive photos
+	- Computer Basic Training - drive photos ================================> DONE
 	- Relief Work
-	- Spiritual Activities - annual descriptive report - above of appeal for...
+	- Spiritual Activities - annual descriptive report - above of appeal for... ==================> DONE
 			- religious activities, celebrations, welfarr work etc are main headings
 	- Free tuition center
-- Appeal
+- Appeal ===> TODO - 1x padding on left, 1.2x on right
 - Gallery
-- Become a Monk - same as chennaimath.org/monk
-- Donate - Annual descriptivre report - from Appeal for renovation and rejuvi (highlight bank name)
+- Become a Monk - same as chennaimath.org/monk ===============> DONE
+- Donate - Annual descriptivre report - from Appeal for renovation and rejuvi (highlight bank name) =============================> DONE
 - More
 	- Legal Documents
 		- Accounts
 		- Registration
-			- Registration Certificate - given folder/pdf
+			- Registration Certificate ==================> DONE
 			- Pan No.
-			- GST - same as charter
-			- Charter of MC - given document add as an image or pdf
-			- PAN No of RKM - 1) pan number of ramakrishna mission
+			- GST - same as charter =============================> DONE
+			- Charter of MC - given document add as an image or pdf =====================> DONE
+			- PAN No of RKM - 1) pan number of ramakrishna mission ======================> DONE
 				2) pan number of RKM
-				3) Download but only first
-		- Land Record - given folder/pdf
+				3) Download FOR BOTH 
+		- Land Record - given folder/pdf ==================> DONE
 		- TAN
-	- Legal status and management Policy - Given document as text + download pdf button at end
+	- Legal status and management Policy - Given document as text + download pdf button at end =================================> DONE
 	- Calender
 	- Visit Us
+
+
+- Slider: arrows orange highlight on hover
+	=> TEMP: removed arrows
+
+Pages:	
+- free tuition center
+- gallery - images uploaded to drive
+- appeal: add the rest of photos
+- accounts
+
+Optimize image:
+	- disciples/direct disciple 6 & 8
+
+TODO:
+	- additional content in gallery

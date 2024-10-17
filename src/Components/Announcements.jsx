@@ -31,43 +31,43 @@ export default function Disciples() {
           </div>
           <div class="box">
             <img src={dd1} />
-            <p><i>RAKHAL</i> - Swami Bramhananda</p>
+            <p><i>RAKHAL Maharaj</i></p><p>Swami Bramhananda</p>
           </div>
           <div class="box">
             <img src={dd2} />
-            <p><i>TARAK</i> - Swami Shivananda</p>
+            <p><i>TARAK Maharaj</i></p><p>Swami Shivananda</p>
           </div>
           <div class="box">
             <img src={dd3} />
-            <p><i>GANGADHAR</i> - Swami Akhandananda</p>
+            <p><i>GANGADHAR Maharaj</i></p><p>Swami Akhandananda</p>
           </div>
           <div class="box">
             <img src={dd4} />
-            <p><i>HARI PRASANA</i> - Swami Vijnanananda</p>
+            <p><i>HARI PRASANA Maharaj</i></p><p>Swami Vijnanananda</p>
           </div>
           <div class="box">
             <img src={dd5} />
-            <p><i>BABURAM</i> - Swami Premananda</p>
+            <p><i>BABURAM Maharaj</i></p><p>Swami Premananda</p>
           </div>
           <div class="box">
             <img src={dd6} />
-            <p><i>SARAT</i> - Swami Saradananda</p>
+            <p><i>SARAT Maharaj</i></p><p>Swami Saradananda</p>
           </div>
           <div class="box">
             <img src={dd7} />
-            <p><i>SASHI</i> - Swami Ramakrishnananda</p>
+            <p><i>SASHI Maharaj</i></p><p>Swami Ramakrishnananda</p>
           </div>
           <div class="box">
             <img src={dd8} />
-            <p><i>HARI</i> - Swami Turiyananda</p>
+            <p><i>HARI Maharaj</i></p><p>Swami Turiyananda</p>
           </div>
           <div class="box">
             <img src={dd9} />
-            <p><i>KALI</i> - Swami Abhedananda</p>
+            <p><i>KALI Maharaj</i></p><p>Swami Abhedananda</p>
           </div>
           <div class="box">
             <img src={dd10} />
-            <p><i>LATU</i> - Swami Adbhutananda</p>
+            <p><i>LATU Maharaj</i></p><p>Swami Adbhutananda</p>
           </div>
           <div class="box">
             <img src={dd11} />
@@ -79,7 +79,7 @@ export default function Disciples() {
           </div>
           <div class="box">
             <img src={dd13} />
-            <p><i>GOPAL</i> - Swami Advaitananda</p>
+            <p><i>GOPAL Maharaj</i></p><p>Swami Advaitananda</p>
           </div>
           <div class="box">
             <img src={dd14} />

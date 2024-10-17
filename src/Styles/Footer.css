@@ -22,6 +22,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10vh;
+  gap: 20px;
 }
 
 #infoContainer {
@@ -73,7 +74,7 @@ footer {
 
 .map iframe {
   width: 90%;
-  height: 60vh;
+  height: 50vh;
   margin-left: 5%;
 }
 
@@ -84,7 +85,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 30px;
   margin-top: 0px;
   margin-right: 2vw;
 }
