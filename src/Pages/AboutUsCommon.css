@@ -19,6 +19,10 @@
 	letter-spacing: 3px;
 }
 
+.appeal-long-header {
+	margin: 0 15vw;
+	text-align: justify;
+}
 
 .content {
 	max-width: 60%;

@@ -37,6 +37,16 @@ import ya10 from '../Assets/gallery/ya23/23ya10.jpg';
 import ya11 from '../Assets/gallery/ya23/23ya11.jpg';
 import ya12 from '../Assets/gallery/ya23/23ya12.jpg';
 
+import dp1 from '../Assets/gallery/dp24/24DP1.jpg';
+import dp2 from '../Assets/gallery/dp24/24DP2.jpg';
+import dp3 from '../Assets/gallery/dp24/24DP3.jpg';
+import dp4 from '../Assets/gallery/dp24/24DP4.jpg';
+import dp5 from '../Assets/gallery/dp24/24DP5.jpg';
+import dp6 from '../Assets/gallery/dp24/24DP6.jpg';
+import dp7 from '../Assets/gallery/dp24/24DP7.jpg';
+import dp8 from '../Assets/gallery/dp24/24DP8.jpg';
+import dp9 from '../Assets/gallery/dp24/24DP9.jpg';
+
 function Gallery() {
  const[Sidebar,SetSidebar]=useState(true) 
   return (
@@ -99,6 +109,22 @@ function Gallery() {
           <img src={ya12} />
         </div>
         </div>
+
+        <div className="gallery-header">
+          <h1>Durga Puja Celebrations 2024</h1>
+        </div>
+        <div className="gallery">
+          <img src={dp1} />
+          <img src={dp2} />
+          <img src={dp3} />
+          <img src={dp4} />
+          <img src={dp5} />
+          <img src={dp6} />
+          <img src={dp7} />
+          <img src={dp8} />
+          <img src={dp9} />
+        </div>
+
       </div>
     </>
   );
