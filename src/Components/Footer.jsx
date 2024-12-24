@@ -9,16 +9,45 @@ const Footer = () => {
           <h1>Visit Us</h1>
             <div className="footer-parallel">
               <div id="infoContainer">
+                  
+
+                <div className="footer-parallel">
+                  
                 <div className="containers">
                   <div className="icon">
                     <i className="fa-solid fa-house" style={{ color: "#470D21" }}></i>
                   </div>
                   <div className="info">
                     <p>
-                      Ramakrishna Mission, Vill: Hamirpur, PO:Rourkela-769003, Dist:
-                      Sundargarh, Odisha, India
+                      Ramakrishna Mission, Vill: Hamirpur, 
+                    </p>
+                    <p>
+                      PO:Rourkela-769003,
+                    </p>
+                    <p>
+                      Dist: Sundargarh, Odisha, India
                     </p>
                   </div>
+                </div>
+
+
+                  <div className="containers">
+                    <div className="icon">
+                      <i
+                        className="fa-solid fa-clock"
+                        style={{ color: "#470D21" }}
+                      ></i>
+                    </div>
+                    <div className="info">
+                      <p>Temple Timings:</p>
+                      <div id="timing-set">
+                        <div className="timing">05.00 AM to 12:30 PM</div>
+                        <div className="timing">04:30 PM to 08:30 PM</div>
+                      </div>
+                      
+                    </div>
+                  </div>
+
                 </div>
                 <div className="containers">
                   <div className="icon">
@@ -33,22 +62,7 @@ const Footer = () => {
                   </div>
                 </div>
             </div>
-            <div className="containers">
-              <div className="icon">
-                <i
-                  className="fa-solid fa-clock"
-                  style={{ color: "#470D21" }}
-                ></i>
-              </div>
-              <div className="info">
-                <p>Temple Timings:</p>
-                <div id="timing-set">
-                  <div className="timing">05.00 AM to 12:30 PM</div>
-                  <div className="timing">04:30 PM to 08:30 PM</div>
-                </div>
-                
-              </div>
-            </div>
+            
         </div>
 
 
