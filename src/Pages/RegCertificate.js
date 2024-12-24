@@ -5,6 +5,7 @@ import './AboutUsCommon.css';
 import reg_certificate from "../Assets/reg-certificate.pdf";
 import reg_certificate_2019 from "../Assets/Registration Certificate New 2019.pdf"
 import reg_certificate_1860 from '../Assets/Mission Societies Registration 1860.pdf'
+import reg_certificate_bm from '../Assets/Registration_certificate_Belur_math.pdf'
 import mission_12 from '../Assets/Mission 12A.pdf'
 
 export default function RegCertificate() {
@@ -27,6 +28,9 @@ export default function RegCertificate() {
 
         <iframe class="pdf" src={mission_12} />
         <a className="document-download" href={mission_12} download="Mission 12A.pdf">Download</a>
+
+        <iframe class="pdf" src={reg_certificate_bm} />
+        <a className="document-download" href={reg_certificate_bm} download="Registration_certificate_Belur_math.pdf">Download</a>
       </div>
     </>
   );
