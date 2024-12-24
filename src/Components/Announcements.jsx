@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Announcements.css";
 import placeholder from "../Assets/placeholder.jpg";
-import img1 from '../Assets/inspiration/Swami_Vivekananda_Jaipur.jpg';
+import dd0 from '../Assets/disciples/DirectDisciples0(vivekananda).png';
 import dd1 from '../Assets/disciples/DirectDisciples1(brahmananda).png';
 import dd2 from '../Assets/disciples/DirectDisciples2(shivananda).png';
 import dd3 from '../Assets/disciples/DirectDisciples3(akhandananda).png';
@@ -26,7 +26,7 @@ export default function Disciples() {
       </div>
       <div className="contents">
           <div class="box">
-            <img src={img1} />
+            <img src={dd0} />
             <p><i></i> Swami Vivekananda</p>
           </div>
           <div class="box">
