@@ -29,6 +29,7 @@ import Tan from "./Pages/Tan.js";
 import Gallery from "./Pages/Gallery.js";
 import VisitUsPage from "./Pages/VisitUs";
 import Accounts from './Pages/Accounts';
+import FreeTuition from './Pages/FreeTuition.js';
 
 const router = createBrowserRouter([
   {
@@ -140,6 +141,10 @@ const router = createBrowserRouter([
     path: '/accounts',
     element: <Accounts />,
   },
+  {
+    path: '/free-tuition',
+    element: <FreeTuition />,
+  }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
