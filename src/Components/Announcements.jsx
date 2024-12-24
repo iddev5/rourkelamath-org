@@ -31,7 +31,7 @@ export default function Disciples() {
           </div>
           <div class="box">
             <img src={dd1} />
-            <p><i>RAKHAL Maharaj</i></p><p>Swami Bramhananda</p>
+            <p><i>RAKHAL Maharaj</i></p><p>SWAMI BRAHMANANDA</p>
           </div>
           <div class="box">
             <img src={dd2} />
