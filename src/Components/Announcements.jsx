@@ -31,43 +31,43 @@ export default function Disciples() {
           </div>
           <div class="box">
             <img src={dd1} />
-           <p>SWAMI BRAHMANANDA</p> <p><i>Rakhal Maharaj</i></p>
+           <p>SWAMI BRAHMANANDA</p> <p><I>(Rakhal Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd2} />
-           <p>SWAMI SHIVANANDA</p> <p><i>Tarak Maharaj</i></p>
+           <p>SWAMI SHIVANANDA</p> <p><I>(Tarak Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd3} />
-           <p>SWAMI AKHANDANANDA</p> <p><i>Gangadhar Maharaj</i></p>
+           <p>SWAMI AKHANDANANDA</p> <p><I>(Gangadhar Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd4} />
-           <p>SWAMI VIJNANANANDA</p> <p><i>Hari Prasanna Maharaj</i></p>
+           <p>SWAMI VIJNANANANDA</p> <p><I>(Hari Prasanna Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd5} />
-            <p>SWAMI PREMANANDA </p><p><i>Baburam Maharaj</i></p>
+            <p>SWAMI PREMANANDA </p><p><I>(Baburam Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd6} />
-           <p>SWAMI SARADANANDA</p> <p><i>Sarat Maharaj</i></p>
+           <p>SWAMI SARADANANDA</p> <p><I>(Sarat Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd7} />
-            <p>SWAMI RAMAKRISHNANANDA</p><p><i>Sashi Maharaj</i></p>
+            <p>SWAMI RAMAKRISHNANANDA</p><p><I>(Sashi Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd8} />
-           <p>SWAMI TURIYANANDA</p> <p><i>Hari Maharaj</i></p>
+           <p>SWAMI TURIYANANDA</p> <p><i>(Hari Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd9} />
-            <p>SWAMI ABHEDANANDA</p><p><i>Kali Maharaj</i></p>
+            <p>SWAMI ABHEDANANDA</p><p><I>(Kali Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd10} />
-            <p>SWAMI ADBHUTANANDA</p><p><i>Latu Maharaj</i></p>
+            <p>SWAMI ADBHUTANANDA</p><p><I>(Latu Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd11} />
@@ -79,7 +79,7 @@ export default function Disciples() {
           </div>
           <div class="box">
             <img src={dd13} />
-          <p>SWAMI ADVAITANANDA</p>  <p><i>Gopal Maharaj</i></p>
+          <p>SWAMI ADVAITANANDA</p>  <p><i>(Gopal Maharaj)</i></p>
           </div>
           <div class="box">
             <img src={dd14} />
@@ -87,7 +87,7 @@ export default function Disciples() {
           </div>
           <div class="box">
             <img src={dd15} />
-            <p><i></i> SWAMI YOGANANDA</p>  <p><i>Jogin Maharaj</i></p>
+            <p><i></i> SWAMI YOGANANDA</p>  <p><i>(Jogin Maharaj)</i></p>
           </div>
       </div>
     </div>
