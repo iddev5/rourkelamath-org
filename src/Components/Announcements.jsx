@@ -27,7 +27,7 @@ export default function Disciples() {
       <div className="contents">
           <div class="box">
             <img src={dd0} />
-            <p><i></i> Swami Vivekananda</p>
+            <p><i></i> SWAMI VIVEKANANDA</p>
           </div>
           <div class="box">
             <img src={dd1} />
