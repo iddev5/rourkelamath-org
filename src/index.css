@@ -20,6 +20,10 @@ h1 {
   font-family: mont;
   src: url(./Assets/Montserrat-Medium.ttf);
 }
+@font-face {
+  font-family: roboto;
+  src: url(./Assets/RobotoCondensed-Regular.ttf);
+}
 body {
   overflow-x: hidden;
 }
