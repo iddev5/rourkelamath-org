@@ -3,6 +3,13 @@ import Footer from "../Components/Footer";
 import { useState } from "react";
 import './AboutUsCommon.css';
 
+import tpc1 from '../Assets/gallery/24tpc/24tpc1.png';
+import tpc2 from '../Assets/gallery/24tpc/24tpc2.png';
+import tpc3 from '../Assets/gallery/24tpc/24tpc3.png';
+import tpc4 from '../Assets/gallery/24tpc/24tpc4.png';
+import tpc5 from '../Assets/gallery/24tpc/24tpc5.png';
+import tpc6 from '../Assets/gallery/24tpc/24tpc6.png';
+
 import tp1 from '../Assets/gallery/189tp/189tp1.jpg';
 import tp2 from '../Assets/gallery/189tp/189tp2.jpg';
 import tp3 from '../Assets/gallery/189tp/189tp3.jpg';
@@ -54,6 +61,19 @@ function Gallery() {
       <Header Sidebar={Sidebar} SetSidebar={SetSidebar} />
       <div className="center">
         <div className="gallery-header">
+          <h1>Tithi Puja Celebration of Holy Mother Sri Sarada Devi</h1>
+        </div>
+        <div className="gallery">
+          <img src={tpc1} />
+          <img src={tpc2} />
+          <img src={tpc3} />
+          <img src={tpc4} />
+          <img src={tpc5} />
+          <img src={tpc6} />
+        </div>
+
+        <div className="gallery-hl center">
+        <div className="gallery-header">
           <h1>189th Tithi Puja of Sri Ramakrishna</h1>
         </div>
         <div className="gallery">
@@ -64,7 +84,8 @@ function Gallery() {
           <img src={tp5} />
           <img src={tp6} />
         </div>
-        <div className="gallery-hl center">
+        </div>
+
         <div className="gallery-header">
           <h1>Guru Purnima 2024</h1>
         </div>
@@ -76,8 +97,8 @@ function Gallery() {
           <img src={gp6} />
           <img src={gp7} />
         </div>
-        </div>
 
+        <div className="gallery-hl center">
         <div className="gallery-header">
           <h1>National Youth Day 2023</h1>
         </div>
@@ -89,8 +110,8 @@ function Gallery() {
           <img src={nyd5} />
           <img src={nyd6} />
         </div>
+        </div>
 
-        <div className="gallery-hl center">
         <div className="gallery-header">
           <h1>Youth Activities (Aug 23 To Jan 24)</h1>
         </div>
@@ -108,8 +129,8 @@ function Gallery() {
           <img src={ya11} />
           <img src={ya12} />
         </div>
-        </div>
 
+        <div className="gallery-hl center">
         <div className="gallery-header">
           <h1>Durga Puja Celebrations 2024</h1>
         </div>
@@ -123,6 +144,7 @@ function Gallery() {
           <img src={dp7} />
           <img src={dp8} />
           <img src={dp9} />
+        </div>
         </div>
 
       </div>
