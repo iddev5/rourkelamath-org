@@ -28,6 +28,7 @@ import Appeal from "./Pages/Appeal.js";
 import Tan from "./Pages/Tan.js";
 import Gallery from "./Pages/Gallery.js";
 import VisitUsPage from "./Pages/VisitUs";
+import Accounts from './Pages/Accounts';
 
 const router = createBrowserRouter([
   {
@@ -134,6 +135,10 @@ const router = createBrowserRouter([
   {
     path: "/gallery",
     element: <Gallery />,
+  },
+  {
+    path: '/accounts',
+    element: <Accounts />,
   },
 ])
 
