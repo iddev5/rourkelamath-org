@@ -18,7 +18,7 @@ function Home() {
       <Welcome />
       <Inspiration />
       <Announcements />
-      <Arti />
+      {/*<Arti />*/}
       {/*<Quote />*/}
       <Footer />
     </>
