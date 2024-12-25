@@ -11,9 +11,10 @@ export default function VisitUs() {
             </div>
             <div className="info">
               <p>
-                Ramakrishna Mission, Vill: Hamirpur, PO:Rourkela-769003, Dist:
-                Sundargarh, Odisha, India
-              </p>
+                Ramakrishna Mission, Vill: Hamirpur, Rourkela, </p>
+                 <p> PO: Rourkela (Sector-19)-769003,</p>
+                  <p>Dist: Sundargarh, Odisha, India</p>
+              
             </div>
           </div>
           <div className="containers">
