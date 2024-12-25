@@ -71,7 +71,7 @@ export default function Disciples() {
           </div>
           <div class="box">
             <img src={dd11} />
-            <p><i></i> SWAMI NIRANJANANDA</p><p>(1862-1904)</p>
+            <p><i></i> SWAMI NIRANJANANANDA</p><p>(1862-1904)</p>
           </div>
           <div class="box">
             <img src={dd12} />
