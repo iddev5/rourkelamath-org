@@ -83,7 +83,7 @@ export default function Disciples() {
           </div>
           <div class="box">
             <img src={dd14} />
-            <p><i></i> SWAMI SUBHODANANDA</p>
+            <p><i></i> SWAMI SUBODHANANDA</p>
           </div>
           <div class="box">
             <img src={dd15} />
