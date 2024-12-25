@@ -14,7 +14,7 @@ export default function RMR() {
     <div className="split">
       <div>
       <p>
-        Ramakrishna Mission, Rourkela, is a vital branch center of Ramakrishna Math
+        Ramakrishna Mission, Rourkela, is a branch center of Ramakrishna Math
         &amp; Ramakrishna Mission, Belur, Howrah, West Bengal, with a profound legacy
         spanning over a century. We are a global, non-political, and non-sectarian
         spiritual organization committed to humanitarian and social service
@@ -37,15 +37,15 @@ export default function RMR() {
 </p>
 <p>
   We are a worldwide, non-political, non-sectarian spiritual organization which
-  has engaged in various forms of humanitarian, social service activities for
+  has engaged in various forms of humanitarian, and social service activities for
   more than a century. Inspired by the ideals of renunciation and service, the
   monks and lay devotees of the Math and Mission serve millions of men, women
-  and children, without any distinction of status, caste, religion or race,
+  and children, without any distinction of status, caste, religion, or race,
   because they see the living God in them.
 </p>
 <p>
-  The organization were brought into existence by Sri Ramakrishna (1836-1886),
-  the great 19th century saint from Bengal who is regarded as the Prophet of the
+  The organization was brought into existence by Sri Ramakrishna (1836-1886),
+  the great 19th-century saint from Bengal who is regarded as the Prophet of the
   Modern Age, and Sri Ramakrishna’s chief disciple, Swami Vivekananda
   (1863-1902), one of the foremost thinkers and religious leaders of the present
   age, who is regarded as ‘one of the main moulders of the modern world’, in the
@@ -76,7 +76,7 @@ export default function RMR() {
 <p>
   The Ramakrishna Mission is based upon the following two fundamental principles
   as taught by Swami Vivekananda based upon the life and realizations of his
-  master Sri Ramakrishna:
+  Master Sri Ramakrishna:
 </p>
 <ol>
   <li><p>The potential divinity of all beings.</p></li>
@@ -117,7 +117,7 @@ export default function RMR() {
   The practical implementation of the motto he gave the Ramakrishna Mission,
   namely, आत्मनो मोक्षार्थं जगद्धिताय च (<i
     >Atmano Mokshartham Jagaddhitaya Cha)</i
-  >, meaning “<i>for one’s own liberation and for the welfare of the world</i>”
+  >, meaning “<i>for one’s own liberation and the welfare of the world</i>”
   is embodied in an aphoristic principle given by his Master Sri Ramakrishna:
   शिव ज्ञाने जीव सेव (<i>Shiva jnane jiva seva)</i>, that is, “s<i
     >ervice of man is worship of God</i
@@ -134,14 +134,14 @@ export default function RMR() {
   the movement's monastic organization. Founded by Sri Ramakrishna in 1886, the
   Math primarily focuses on spiritual training and the propagation of the
   movement's teachings. The Mission, founded by Vivekananda in 1897 is a
-  humanitarian organization which carries out medical, relief and educational
-  programs. Both the organizations have headquarters at the Belur Math. The
+  humanitarian organization that carries out medical, relief, and educational
+  programs. Both organizations have headquarters at the Belur Math. The
   Mission acquired a legal status when it was registered in 1909 under Act XXI
   of 1860. Its management is vested in a Governing Body. Though the Mission with
-  its branches is a distinct legal entity, it is closely related to the Math.
+  its branches is a distinct legal entity, it is closely related to Math.
   The elected trustees of the Math also serve as Mission's Governing Body.
-  Vedanta Societies comprise the American and Europian arm of the Movement and
-  work more in purely spiritual field rather than social welfare.
+  Vedanta Societies comprise the American and European arm of the Movement and
+  work more in purely spiritual fields rather than social welfare.
 </p>
 <p></p>
 <p>
@@ -149,14 +149,14 @@ export default function RMR() {
 </p>
 <p>
   Ramakrishna Mission Rourkela, situated near Hamirpur village on
-  the outskirts of Rourkela, is immersed in a landscape adorned with tribal
+  the outskirts of Rourkela is immersed in a landscape adorned with tribal
   villages. The area offers several notable places to explore:
 </p>
 <ol>
   <li>
     <p>
       <b>Temple of Lord Jagannatha</b>: A place of worship dedicated to Lord
-      Jagannatha, known for its spiritual significance and architectural beauty.
+      Jagannatha is known for its spiritual significance and architectural beauty.
     </p>
   </li>
 
