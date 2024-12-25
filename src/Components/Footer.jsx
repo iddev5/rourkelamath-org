@@ -19,10 +19,13 @@ const Footer = () => {
                   </div>
                   <div className="info">
                     <p>
-                      Ramakrishna Mission, Vill: Hamirpur, 
+                      Ramakrishna Mission,
                     </p>
                     <p>
-                      PO:Rourkela-769003,
+                       Vill: Hamirpur, 
+                    </p>
+                    <p>
+                      PO:Rourkela(Sector-19)-769003,
                     </p>
                     <p>
                       Dist: Sundargarh, Odisha, India
