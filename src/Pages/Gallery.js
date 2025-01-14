@@ -77,128 +77,108 @@ import comp20 from '../Assets/gallery/comp/comp20.jpg';
 
 function Gallery() {
  const[Sidebar,SetSidebar]=useState(true) 
-  return (
-    <>
-      <Header Sidebar={Sidebar} SetSidebar={SetSidebar} />
 
-      <div className="center">
-      
+  const events = [
+    {
+      name: 'Competition on 22.09.24 on Moral storytelling and Drawing',
+      images: [comp1, comp2, comp3, comp4, comp5, comp6, comp7, comp8, comp9,
+        comp10, comp11, comp12, comp13, comp14, comp15, comp16, comp17, comp18,
+        comp19, comp20]
+    },
+    {
+      name: 'Tithi Puja Celebration of Holy Mother Sri Sarada Devi',
+      images: [
+        tpc1,
+        tpc2,
+        tpc3,
+        tpc4,
+        tpc5,
+        tpc6,
+      ]
+    },
+    {
+      name: '189th Tithi Puja of Sri Ramakrishna',
+      images: [
+        tp1,
+        tp2,
+        tp3,
+        tp4,
+        tp5,
+        tp6,
+      ]
+    },
+    {
+      name: 'Guru Purnima 2024',
+      images: [
+        gp1,
+        gp2,
+        gp3,
+        gp4,
+        gp6,
+        gp7,
+      ]
+    },
+    {
+      name: 'National Youth Day 2023',
+      images: [
+        nyd1,
+        nyd2,
+        nyd3,
+        nyd4,
+        nyd5,
+        nyd6,
+      ]
+    },
+    {
+      name: 'Youth Activities (Aug 23 To Jan 24)',
+      images: [
+        ya1,
+        ya2,
+        ya3,
+        ya4,
+        ya5,
+        ya6,
+        ya7,
+        ya8,
+        ya9,
+        ya10,
+        ya11,
+        ya12,
+      ]
+    },
+    {
+      name: 'Durga Puja Celebrations 2024',
+      images: [
+        dp1,
+        dp2,
+        dp3,
+        dp4,
+        dp5,
+        dp6,
+        dp7,
+        dp8,
+        dp9,
+      ]
+    }
+  ];
+
+  return (<>
+    <Header Sidebar={Sidebar} SetSidebar={SetSidebar} />
+
+
+    {events.map((event, idx) =>
+      <div className={`center ${idx % 2 != 0 ? 'gallery-hl' : ''}`}>
         <div className="gallery-header">
-          <h1>Competition on 22.09.24 on Moral storytelling and Drawing</h1>
+          <h1>{event.name}</h1>
         </div>
-        <div className="gallery">
-          <img src={comp1} />
-          <img src={comp2} />
-          <img src={comp3} />
-          <img src={comp4} />
-          <img src={comp5} />
-          <img src={comp6} />
-          <img src={comp7} />
-          <img src={comp8} />
-          <img src={comp9} />
-          <img src={comp10} />
-          <img src={comp11} />
-          <img src={comp12} />
-          <img src={comp13} />
-          <img src={comp14} />
-          <img src={comp15} />
-          <img src={comp16} />
-          <img src={comp17} />
-          <img src={comp18} />
-          <img src={comp19} />
-          <img src={comp20} />
+        <div className='gallery'>
+          {event.images.map(image => 
+            <img src={image} />
+          )}
         </div>
-
-        <div className="gallery-header">
-          <h1>Tithi Puja Celebration of Holy Mother Sri Sarada Devi</h1>
-        </div>
-        <div className="gallery">
-          <img src={tpc1} />
-          <img src={tpc2} />
-          <img src={tpc3} />
-          <img src={tpc4} />
-          <img src={tpc5} />
-          <img src={tpc6} />
-        </div>
-
-        <div className="gallery-hl center">
-        <div className="gallery-header">
-          <h1>189th Tithi Puja of Sri Ramakrishna</h1>
-        </div>
-        <div className="gallery">
-          <img src={tp1} />
-          <img src={tp2} />
-          <img src={tp3} />
-          <img src={tp4} />
-          <img src={tp5} />
-          <img src={tp6} />
-        </div>
-        </div>
-
-        <div className="gallery-header">
-          <h1>Guru Purnima 2024</h1>
-        </div>
-        <div className="gallery">
-          <img src={gp1} />
-          <img src={gp2} />
-          <img src={gp3} />
-          <img src={gp4} />
-          <img src={gp6} />
-          <img src={gp7} />
-        </div>
-
-        <div className="gallery-hl center">
-        <div className="gallery-header">
-          <h1>National Youth Day 2023</h1>
-        </div>
-        <div className="gallery">
-          <img src={nyd1} />
-          <img src={nyd2} />
-          <img src={nyd3} />
-          <img src={nyd4} />
-          <img src={nyd5} />
-          <img src={nyd6} />
-        </div>
-        </div>
-
-        <div className="gallery-header">
-          <h1>Youth Activities (Aug 23 To Jan 24)</h1>
-        </div>
-        <div className="gallery">
-          <img src={ya1} />
-          <img src={ya2} />
-          <img src={ya3} />
-          <img src={ya4} />
-          <img src={ya5} />
-          <img src={ya6} />
-          <img src={ya7} />
-          <img src={ya8} />
-          <img src={ya9} />
-          <img src={ya10} />
-          <img src={ya11} />
-          <img src={ya12} />
-        </div>
-
-        <div className="gallery-hl center">
-        <div className="gallery-header">
-          <h1>Durga Puja Celebrations 2024</h1>
-        </div>
-        <div className="gallery">
-          <img src={dp1} />
-          <img src={dp2} />
-          <img src={dp3} />
-          <img src={dp4} />
-          <img src={dp5} />
-          <img src={dp6} />
-          <img src={dp7} />
-          <img src={dp8} />
-          <img src={dp9} />
-        </div>
-        </div>
-
       </div>
-    </>
-  );
+    )}
+  </>);
 }
 
 export default Gallery;
