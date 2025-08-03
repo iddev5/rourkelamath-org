@@ -99,22 +99,36 @@ export default function RMR() {
       <div className="content">
       <div className="center">
         <p><h1>AN APPEAL</h1></p>
-
         <p>Rourkela Ramakrishna Mission</p>
+        <div>
+          <p>Dear Devotees and Well-Wishers,</p>
+          <p>The Ramakrishna Mission, Rourkela, situated in the heart of the tribal-dominated Sundargarh district of Odisha, has been serving the region with dedication and devotion since its inception in 1978. The Temple was formally inaugurated in 1980 by the revered Srimat Swami Vireswaranandaji Maharaj, the 10th President of the Ramakrishna Order, and has since been blessed by visits from several senior monks, including Swami Bhuteshanandaji, Swami Ranganathanandaji, and Swami Gahananandaji.</p>
+          <p>In 2019, Belur Math assumed charge of the Centre to further strengthen the Ramakrishna Movement in western Odisha—a region with no other Ramakrishna Mission Centre. Despite Rourkela’s cosmopolitan nature, the teachings of Sri Ramakrishna have yet to reach the wider local population in a meaningful way. The number of devotees remains small, and local financial support is limited. For nearly four decades, the Centre has lacked essential infrastructure, and the Temple has fallen into a state of disrepair.</p>
+          <p>To meet these pressing needs, we seek your generous support for the following developments:</p>
+          <ul>
+            <li><p>Construction of Monks’ Quarters</p></li>
+            <li><p>Establishment of an Administrative Office</p></li>
+            <li><p>Book Sale Counter and Art Gallery</p></li>
+            <li><p>Smart Classroom for Value Education and Skill Development</p></li>
+            <li><p>Future Project: A School of E-learning for Tribal and Unemployed Youth</p></li>
+          </ul>
+          <p>In addition, the Temple itself requires urgent renovations to align with the standards of other Ramakrishna Mission Temples across India:</p>
+          <ul>
+            <li><p>Modern roof treatment to prevent damage</p></li>
+            <li><p>Structural reinforcement with additional support pillars for the 60-foot cantilever</p></li>
+            <li><p>Major repairs to the exterior</p></li>
+            <li><p>Weather-resistant coating over approximately 10,000 sq. ft.</p></li>
+          </ul>
+          <p>The estimated cost for all renovation and construction work is approximately Rs. 50 lakhs.</p>
+          <p>We humbly appeal to the kind-hearted devotees of Sri Ramakrishna—across India and especially the families and descendants of the Centre's founding devotees—to come forward and contribute generously towards this noble cause.</p>
+          <p>Your support is vital in transforming the Ramakrishna Mission, Rourkela into a vibrant centre of spiritual, educational, and social upliftment in Odisha. In these economically challenging times, only through collective effort can we fulfill this sacred mission.</p>
+          <p>Let us unite in service to Sri Ramakrishna and help rejuvenate His temple at Rourkela. May the Holy Trio shower Their blessings upon you and your loved ones for your generosity and unwavering support.</p>
 
-          <p>hope this message finds you in good health and high spirits.</p>
-          <p>I am writing to bring to your attention the urgent needs of the Ramakrishna Mission, Rourkela, located in the heart of the tribal-dominated Sundargarh district in Odisha. Founded by dedicated devotees of Sri Ramakrishna in 1978, the Temple was inaugurated by the revered Srimat Swami Vireswaranandaji Maharaj 10th President of Ramakrishna order in the year1980 and has since been blessed by many senior monks.</p>
-          <p>In 2019, Belur Math took charge of the Centre to strengthen the Ramakrishna movement in western Odisha, an area with no other Centre.</p>
-          <p>Our mission faces significant challenges. Despite Rourkela being a cosmopolitan town, the teachings of Sri Ramakrishna have not yet deeply permeated the local community. Additionally, the number of devotees in the area remains small, and local funds are scarce. For nearly four decades, the Centre did not receive the necessary infrastructure to operate effectively, leaving the Temple in a worn-out state.</p>
-          <p>To address these issues, we urgently need to construct essential facilities, including Monks’ Quarters, an Office, a Book Sale Counter, an Art Gallery, and a smart classroom for value education. Our future plans include setting up a School of E-learning for Tribal and Unemployed Youth.</p>
-          <p>The Temple itself requires significant repairs to meet the standards of our other Temples in India. The total cost for these renovations and constructions is estimated at around Rs 25 lacks.</p>
-          <p>We earnestly appeal to the kind-hearted devotees of Thakur Sri Ramakrishna across India, including the families and successors of the Centre’s founding devotees, to donate generously to construc the infrastructure. Which may need about 5 crores.</p>
-          <p>Your support is crucial in renovating and rejuvenating the Ramakrishna Mission, Rourkela, transforming it into a hub for spiritual and welfare work in Odisha.In these economically challenging times, only through collective effort can we accomplish this mission.</p>
-          <p>Let us come together and contribute towards this noble cause. I pray to The Holy Trio to shower abundant blessings upon you all for your generosity and support.</p>
-          <p>Yours in the service of the Holy Trio,<br />
-          Swami Buddhadevananda<br />
+          <p>With prayers and gratitude,<br />
+          <strong>Swami Buddhadevananda<br />
           Secretary<br />
-          Ramakrishna Mission, Rourkela</p>
+          Ramakrishna Mission, Rourkela</strong></p>
+          </div>
       </div></div>
         <div className="appeal-long-header header">
           <h1>Photos revealing the worn-out condition of Shri Ramakrishna Sangha rest-while a private center in the year 2019 under Odisha Bhava Prachar Parishad</h1>
