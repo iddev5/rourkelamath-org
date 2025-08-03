@@ -105,7 +105,7 @@ export default function RMR() {
           <p>hope this message finds you in good health and high spirits.</p>
           <p>I am writing to bring to your attention the urgent needs of the Ramakrishna Mission, Rourkela, located in the heart of the tribal-dominated Sundargarh district in Odisha. Founded by dedicated devotees of Sri Ramakrishna in 1978, the Temple was inaugurated by the revered Srimat Swami Vireswaranandaji Maharaj 10th President of Ramakrishna order in the year1980 and has since been blessed by many senior monks.</p>
           <p>In 2019, Belur Math took charge of the Centre to strengthen the Ramakrishna movement in western Odisha, an area with no other Centre.</p>
-          <p>Our mission faces significant challenges. Despite Rourkela being a cosmopolitan town, the teachings of Sri Ramakrishna have not yet deeply permeated the local community. Additionally, the number of devotees in the area remains small, and local funds are scarce. For nearly four decades, the Centre did not receive the necessary infrastructure to operate effectively, leaving the Temple in a dilapidated state.</p>
+          <p>Our mission faces significant challenges. Despite Rourkela being a cosmopolitan town, the teachings of Sri Ramakrishna have not yet deeply permeated the local community. Additionally, the number of devotees in the area remains small, and local funds are scarce. For nearly four decades, the Centre did not receive the necessary infrastructure to operate effectively, leaving the Temple in a worn-out state.</p>
           <p>To address these issues, we urgently need to construct essential facilities, including Monks’ Quarters, an Office, a Book Sale Counter, an Art Gallery, and a smart classroom for value education. Our future plans include setting up a School of E-learning for Tribal and Unemployed Youth.</p>
           <p>The Temple itself requires significant repairs to meet the standards of our other Temples in India. The total cost for these renovations and constructions is estimated at around Rs 25 lacks.</p>
           <p>We earnestly appeal to the kind-hearted devotees of Thakur Sri Ramakrishna across India, including the families and successors of the Centre’s founding devotees, to donate generously to construc the infrastructure. Which may need about 5 crores.</p>
@@ -117,7 +117,7 @@ export default function RMR() {
           Ramakrishna Mission, Rourkela</p>
       </div></div>
         <div className="appeal-long-header header">
-          <h1>Photos revealing the dilapidated condition of Shri Ramakrishna Sangha rest-while a private center in the year 2019 under Odisha Bhava Prachar Parishad</h1>
+          <h1>Photos revealing the worn-out condition of Shri Ramakrishna Sangha rest-while a private center in the year 2019 under Odisha Bhava Prachar Parishad</h1>
         </div>
         <div className="center">
           <div className="gallery-4">
