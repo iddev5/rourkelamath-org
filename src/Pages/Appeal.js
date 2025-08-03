@@ -99,7 +99,7 @@ export default function RMR() {
       <div className="content">
       <div className="center">
         <p><h1>AN APPEAL</h1></p>
-        <p>Rourkela Ramakrishna Mission</p>
+        <p>Ramakrishna Mission, Rourkela</p>
         <div>
           <p>Dear Devotees and Well-Wishers,</p>
           <p>The Ramakrishna Mission, Rourkela, situated in the heart of the tribal-dominated Sundargarh district of Odisha, has been serving the region with dedication and devotion since its inception in 1978. The Temple was formally inaugurated in 1980 by the revered Srimat Swami Vireswaranandaji Maharaj, the 10th President of the Ramakrishna Order, and has since been blessed by visits from several senior monks, including Swami Bhuteshanandaji, Swami Ranganathanandaji, and Swami Gahananandaji.</p>
