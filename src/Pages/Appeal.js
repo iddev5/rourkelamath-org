@@ -131,7 +131,7 @@ export default function RMR() {
           </div>
       </div></div>
         <div className="appeal-long-header header">
-          <h1>Photos revealing the worn-out condition of Shri Ramakrishna Sangha rest-while a private center in the year 2019 under Odisha Bhava Prachar Parishad</h1>
+          <h1>Photos revealing the worn-out condition of Shri Ramakrishna Sangha rest-while a private center in the year 2019 under Odisha Bhava Prachar Parishad taken over by Ramakrishna Mission, Belur Math, Howrah, WB - 711202 on 18th September, 2019</h1>
         </div>
         <div className="center">
           <div className="gallery-4">
