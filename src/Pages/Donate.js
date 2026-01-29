@@ -74,8 +74,8 @@ function Projects() {
                     </p>
                     <p>
                         For further details and donations, please reach out to
-                        us via email at rourkela@rkmm.org or WhatsApp us at +91
-                        89108 03937, providing your details and PAN number. You
+                        us via email at rkmrourkela@gmail.com or WhatsApp us at +91
+                        89181 21261 & +91 94343 02156 providing your details and PAN number. You
                         may also directly contribute to our bank account:
                     </p>
                     <span className="highlight">
@@ -95,7 +95,7 @@ function Projects() {
                     </p>
                     <p>Yours affectionately,</p>
                     <p>
-                        Swami Buddhadevananda Secretary, Ramakrishna Mission,
+                        Swami Divyaswarupananda, Secretary, Ramakrishna Mission,
                         Rourkela
                     </p>
                 </div>
